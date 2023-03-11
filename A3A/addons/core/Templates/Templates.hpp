@@ -724,4 +724,47 @@ class Templates
         file = "GM_Civ";
     };
 
+    // ********************************** Spee Wie das Waschmittel ************************************************
+
+    class SPE_Base
+    {
+        requiredAddons[] = {"ww2_spe_assets_c_characters_germans_c"};
+        basepath = QPATHTOFOLDER(Templates\Templates\SPE);
+        logo = "a3\data_f\flags\flag_fia_co.paa";
+        priority = 80;
+        equipFlags[] = {"lowTech"};
+        //forceDLC[] = {"spe"};
+    };
+
+    class SPE_US : SPE_Base
+    {
+        side = "Inv";
+        flagTexture = "\WW2\SPE_Core_t\Markers_t\Flags\SPE_Icon_Flag_US.paa";
+        name = "SPE US";
+        file = "SPE_AI_US";
+    };
+
+    class SPE_WEH : SPE_Base
+    {
+        side = "Occ";
+        flagTexture = "ww2\spe_core_t\decals_t\german\flag_ger_ca.paa";
+        name = "WEH";
+        file = "SPE_AI_WEH";
+    };
+
+    class SPE_Reb : SPE_Base
+    {
+        side = "Reb";
+        flagTexture = "a3\data_f\flags\flag_fia_co.paa";
+        name = "SPE FIA";
+        file = "SPE_Reb_FIA";
+    };
+
+    class SPE_CIV : SPE_Base
+    {
+        side = "Civ";
+        flagTexture = "a3\data_f\flags\flag_fia_co.paa";
+        name = "SPE Civs";
+        file = "SPE_CIV";
+    };
 };
