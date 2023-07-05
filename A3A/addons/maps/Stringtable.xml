@@ -798,13 +798,13 @@
         <Polish>Rewolucja w stercie liści.</Polish>
         <Portuguese>Revoluçao num monte de folhas</Portuguese>
       </Key>
-      <Key ID="STR_antistasi_mission_info_normandy_mapname_short_text">
+      <Key ID="STR_antistasi_mission_info_SPE_Normandy_mapname_short_text">
         <Original>Antistasi Normandy</Original>
       </Key>
-      <Key ID="STR_antistasi_mission_info_normandy_mapname_text">
+      <Key ID="STR_antistasi_mission_info_SPE_Normandy_mapname_text">
         <Original>Antistasi - The French Resistance</Original>
       </Key>
-      <Key ID="STR_antistasi_mission_info_normandy_description_text">
+      <Key ID="STR_antistasi_mission_info_SPE_Normandy_description_text">
         <Original>Be the Resistance Leader. Fight against a superior enemy in technology, number, assets and vehicles. Use guerrilla tactics in a totally dynamic world, with around 18 sidemissions, everywhere, anytime, anything.</Original>
         <French>Devenez le Chef de la Résistance. Battez-vous contre un ennemi en surnombre et avec un niveau technologique supérieur. Utilisez les tactiques des Guerrillas dans un monde complétement dynamique, avec environ 18 missions. Quand vous voulez, où vous voulez, avec ce que vous voulez...</French>
         <Russian>Стань лидером сопротивления. Сражайся против врага превосходящего в технологии, количистве, вооружении и технике. Используй партизанскую тактику в полностью динамическом мире.</Russian>
@@ -816,7 +816,7 @@
         <Spanish>Sé el Líder de la Resistencia. Lucha contra un enemigo superior en tecnología, número, capacidades y vehículos. Usa tacticas de la guerrilla en un mundo totalmente dinámica, con alrededor de 18 misiones secundarias, en todos lados, a cualquier hora, con cualquier cosa.</Spanish>
         <Polish>Bądź liderem ruchu oporu. Walcz z lepszym wrogiem pod względem technologii, liczby żołnierzy, zasobów i pojazdów. Używaj taktyk partyzanckich w całkowicie dynamicznym świecie, z około 18 misjami pobocznymi, w dowolnym miejscu i czasie.</Polish>
       </Key>
-      <Key ID="STR_antistasi_mission_info_normandy_blurb_text">
+      <Key ID="STR_antistasi_mission_info_SPE_Normandy_blurb_text">
         <Original>Vive la résistance!</Original>
       </Key>
     </Container>
