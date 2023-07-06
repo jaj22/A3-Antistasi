@@ -2,33 +2,35 @@
 //   Rebel Information   //
 ///////////////////////////
 
-["name", "FIA"] call _fnc_saveToTemplate;
+["name", "FFF"] call _fnc_saveToTemplate;
 
-["flag", "Flag_FIA_F"] call _fnc_saveToTemplate;
-["flagTexture", "a3\data_f\flags\flag_fia_co.paa"] call _fnc_saveToTemplate;
+["flag", "SPE_FlagCarrier_FFF"] call _fnc_saveToTemplate;
+["flagTexture", "\WW2\SPE_Core_t\Data_t\Flags\flag_FFF_co.paa"] call _fnc_saveToTemplate;
 ["flagMarkerType", "flag_FIA"] call _fnc_saveToTemplate;
 
-["vehicleBasic", ""] call _fnc_saveToTemplate;
-["vehicleLightUnarmed", "SPE_US_M3_Halftrack_Unarmed"] call _fnc_saveToTemplate;
-["vehicleLightArmed", "SPE_US_M3_Halftrack"] call _fnc_saveToTemplate;
-["vehicleTruck", "SPE_US_M3_Halftrack_Unarmed"] call _fnc_saveToTemplate;
-["vehicleAT", ""] call _fnc_saveToTemplate;
-["vehicleAA", "SPE_OpelBlitz_Flak38"] call _fnc_saveToTemplate;
-["vehicleBoat", "I_G_Boat_Transport_01_F"] call _fnc_saveToTemplate;
-["vehicleRepair", "SPE_OpelBlitz_Repair"] call _fnc_saveToTemplate;
-["vehiclePlane", "SPE_FW190F8"] call _fnc_saveToTemplate;
-["vehicleHeli", ""] call _fnc_saveToTemplate;
+["vehiclesBasic", []] call _fnc_saveToTemplate;
+["vehiclesLightUnarmed", ["SPE_US_M3_Halftrack_Unarmed"]] call _fnc_saveToTemplate;
+["vehiclesLightArmed", ["SPE_US_M3_Halftrack"]] call _fnc_saveToTemplate;
+["vehiclesTruck", ["SPE_US_M3_Halftrack_Unarmed"]] call _fnc_saveToTemplate;
+["vehiclesAT", []] call _fnc_saveToTemplate;
+["vehiclesAA", ["SPE_OpelBlitz_Flak38"]] call _fnc_saveToTemplate;
 
-["vehicleCivCar", "SPE_OpelBlitz_Open"] call _fnc_saveToTemplate;
-["vehicleCivTruck", "SPE_OpelBlitz"] call _fnc_saveToTemplate;
-["vehicleCivHeli", ""] call _fnc_saveToTemplate;
-["vehicleCivBoat", "C_Rubberboat"] call _fnc_saveToTemplate;
+["vehiclesBoat", ["I_G_Boat_Transport_01_F"]] call _fnc_saveToTemplate;
+["vehiclesRepair", ["SPE_OpelBlitz_Repair"]] call _fnc_saveToTemplate;
+["vehiclesPlane", ["SPE_FW190F8"]] call _fnc_saveToTemplate;
+["vehiclesHeli", []] call _fnc_saveToTemplate;
 
-["staticMG", "SPE_MG34_Lafette_Deployed"] call _fnc_saveToTemplate;
-["staticAT", "SPE_FR_57mm_M1"] call _fnc_saveToTemplate;
-["staticAA", "SPE_FR_M45_Quadmount"] call _fnc_saveToTemplate;
+["vehiclesCivCar", ["SPE_FFI_OpelBlitz_Open"]] call _fnc_saveToTemplate;
+["vehiclesCivTruck", ["SPE_FFI_OpelBlitz"]] call _fnc_saveToTemplate;
+["vehiclesCivHeli", []] call _fnc_saveToTemplate;
+["vehiclesCivBoat", []] call _fnc_saveToTemplate;
+["vehiclesCivPlane", []] call _fnc_saveToTemplate;
 
-["staticMortar", "SPE_MLE_27_31"] call _fnc_saveToTemplate;
+["staticMGs", ["SPE_MG34_Lafette_Deployed"]] call _fnc_saveToTemplate;
+["staticAT", ["SPE_FR_57mm_M1"]] call _fnc_saveToTemplate;
+["staticAA", ["SPE_FR_M45_Quadmount"]] call _fnc_saveToTemplate;
+
+["staticMortars", ["SPE_MLE_27_31"]] call _fnc_saveToTemplate;
 ["staticMortarMagHE", "SPE_8Rnd_81mm_FA_Mle_1932_HE"] call _fnc_saveToTemplate;
 ["staticMortarMagSmoke", "SPE_8Rnd_81mm_FA_Mle_1932_Smoke"] call _fnc_saveToTemplate;
 
@@ -111,12 +113,12 @@ private _rebUniforms = [
 //////////////////////////
 private _loadoutData = call _fnc_createLoadoutData;
 _loadoutData set ["maps", ["ItemMap"]];
-_loadoutData set ["watches", ["ItemWatch"]];
-_loadoutData set ["compasses", ["ItemCompass"]];
-_loadoutData set ["binoculars", ["Binocular"]];
+_loadoutData set ["watches", ["SPE_US_ItemWatch","SPE_GER_ItemWatch"]];
+_loadoutData set ["compasses", ["SPE_US_ItemCompass","SPE_GER_ItemCompass"]];
+_loadoutData set ["binoculars", ["SPE_Binocular_GER"]];
 
 _loadoutData set ["uniforms", _rebUniforms];
-_loadoutData set ["facewear", ["G_SPE_Watch2", "G_SPE_Watch1", "G_SPE_Dienst_Brille2", "G_SPE_Binoculars"]];
+_loadoutData set ["facewear", ["G_SPE_Cigar_Moza", "G_SPE_Cigarette_Grundstein", "G_SPE_Dienst_Brille", "G_SPE_Sunglasses_GER_Brown"]];
 
 _loadoutData set ["items_medical_basic", ["BASIC"] call A3A_fnc_itemset_medicalSupplies];
 _loadoutData set ["items_medical_standard", ["STANDARD"] call A3A_fnc_itemset_medicalSupplies];

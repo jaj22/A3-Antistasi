@@ -128,7 +128,7 @@ _loadoutData set ["sniperRifles", [
 ]];
 
 _loadoutData set ["lightATLaunchers", ["SPE_M1A1_Bazooka"]];
-_loadoutData set ["sidearms", ["SPE_Colt_M1911"]];
+_loadoutData set ["sidearms", ["SPE_M1911"]];
 
 _loadoutData set ["ATMines", ["SPE_US_M1A1_ATMINE_mag"]];
 _loadoutData set ["APMines", ["SPE_US_M3_Pressure_MINE_mag", "SPE_US_M3_MINE_mag"]];
@@ -222,7 +222,7 @@ _sfLoadoutData set ["slHelmets", ["H_SPE_US_Rangers_Helmet_First_lieutenant", "H
 
 _sfLoadoutData set ["slRifles", [
 ["SPE_M1A1_Thompson", "", "", "", ["SPE_30Rnd_Thompson_45ACP", "SPE_30Rnd_Thompson_45ACP", "SPE_30Rnd_Thompson_45ACP_t"], [], ""],
-["SPE_M3_GreaseGun", "", "SPE_ACC_M3_Suppressor_45acp", "", ["SPE_30Rnd_M3_GreaseGun_45ACP", "SPE_30Rnd_M3_GreaseGun_45ACP", "SPE_30Rnd_M3_GreaseGun_45ACP_t"], [], ""],
+["SPE_M3_GreaseGun", "SPE_ACC_M3_Suppressor_45acp", "", "", ["SPE_30Rnd_M3_GreaseGun_45ACP", "SPE_30Rnd_M3_GreaseGun_45ACP", "SPE_30Rnd_M3_GreaseGun_45ACP_t"], [], ""],
 ["SPE_M1918A2_BAR", "", "SPE_M1918A2_BAR_Handle", "", ["SPE_20Rnd_762x63_M2_AP"], [], ""]
 ]];
 _sfLoadoutData set ["rifles", [

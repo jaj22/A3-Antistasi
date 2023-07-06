@@ -822,7 +822,7 @@ class Templates
     {
         requiredAddons[] = {"ww2_spe_assets_c_characters_germans_c"};
         basepath = QPATHTOFOLDER(Templates\Templates\SPE);
-        logo = "a3\data_f\flags\flag_fia_co.paa";
+        logo = "\WW2\SPE_Core_t\Data_t\Flags\flag_FFF_co.paa";
         priority = 80;
         equipFlags[] = {"lowTech"};
         //forceDLC[] = {"spe"};
@@ -847,9 +847,9 @@ class Templates
     class SPE_Reb : SPE_Base
     {
         side = "Reb";
-        flagTexture = "a3\data_f\flags\flag_fia_co.paa";
-        name = "SPE FIA";
-        file = "SPE_Reb_FIA";
+        flagTexture = "\WW2\SPE_Core_t\Data_t\Flags\flag_FFF_co.paa";
+        name = "SPE FFF";
+        file = "SPE_Reb_FFF";
     };
 
     class SPE_CIV : SPE_Base

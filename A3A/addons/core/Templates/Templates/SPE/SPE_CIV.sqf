@@ -119,7 +119,7 @@ _loadoutData set ["workerUniforms", _workerUniforms];
 _loadoutData set ["helmets", _civHats];
 _loadoutData set ["pressHelmets", ["H_SPE_CIV_Fedora_Cap_1","H_SPE_CIV_Fedora_Cap_2","H_SPE_CIV_Fedora_Cap_3","H_SPE_CIV_Fedora_Cap_4","H_SPE_CIV_Fedora_Cap_5"]];
 _loadoutData set ["workerHelmets", ["","H_SPE_CIV_Worker_Cap_1","H_SPE_CIV_Worker_Cap_2","H_SPE_CIV_Worker_Cap_3"]];
-_loadoutData set ["facewear", ["G_SPE_Cigarette_Belomorkanal","G_SPE_Cigarette_Grundstein","G_SPE_Dienst_Brille","G_SPE_Dienst_Brille2","G_SPE_Pipe_Sir_Winston"]];
+_loadoutData set ["facewear", ["G_SPE_Cigarette_Belomorkanal","G_SPE_Cigarette_Grundstein","G_SPE_Dienst_Brille","G_SPE_Pipe_Sir_Winston"]];
 
 _loadoutData set ["maps", ["ItemMap"]];
 

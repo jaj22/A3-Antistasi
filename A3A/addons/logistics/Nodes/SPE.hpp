@@ -28,6 +28,8 @@ class SPE_ST_OpelBlitz : TRIPLES(ADDON,Nodes,Base) //Removable Canopy on both Co
 class SPE_OpelBlitz : SPE_ST_OpelBlitz {};
 class SPE_OpelBlitz_Open : SPE_ST_OpelBlitz {};
 class SPE_ST_OpelBlitz_Open : SPE_ST_OpelBlitz {};
+class SPE_FFI_OpelBlitz : SPE_ST_OpelBlitz {};
+class SPE_FFI_OpelBlitz_Open : SPE_ST_OpelBlitz {};
 
 class SPE_US_M3_Halftrack_Unarmed : TRIPLES(ADDON,Nodes,Base)
 {
