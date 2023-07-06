@@ -60,7 +60,7 @@
 
 ["vehiclesPolice", ["SPE_FR_M3_Halftrack_Unarmed"]] call _fnc_saveToTemplate;
 
-["staticMGs", ["SPE_FR_M1919_M2_Trench_Deployed"]] call _fnc_saveToTemplate;
+["staticMGs", ["SPE_M1919A6_Bipod"]] call _fnc_saveToTemplate;
 ["staticAT", ["SPE_57mm_M1"]] call _fnc_saveToTemplate;
 ["staticAA", ["SPE_FR_M45_Quadmount"]] call _fnc_saveToTemplate;
 ["staticMortars", ["SPE_M1_81"]] call _fnc_saveToTemplate;
