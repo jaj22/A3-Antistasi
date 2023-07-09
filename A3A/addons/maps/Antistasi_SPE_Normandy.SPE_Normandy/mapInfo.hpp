@@ -10,8 +10,8 @@ class SPE_Normandy {
 	antennasBlacklistIndex[] = {};
 	banks[] = {}; //no suitable/defined buildings
 	garrison[] = {
-		{},{"airport_3","outpost_1","outpost_10","factory_6","resource_1","resource_2"},
-		{},{}
+		{},{"airport_3","outpost_1","outpost_10","factory_6","resource_1","resource_2","control_17","control_18","control_19","control_32","control_33","control_51","control_56","control_57"},
+		{},{"control_17","control_18","control_19","control_32","control_33","control_51","control_56","control_57"}
 	};
 	fuelStationTypes[] = {
 		"Land_FuelStation_Feed_F","Land_fs_feed_F","Land_FuelStation_01_pump_malevil_F","Land_FuelStation_01_pump_F","Land_FuelStation_02_pump_F","Land_FuelStation_03_pump_F"
