@@ -101,12 +101,23 @@ if (_isControl) then
 				_bunker = "Land_SPE_Sandbag_Nest" createVehicle _pos;
 				_bunker setDir _dirveh + 180;
 				_pos = _bunker modelToWorld [-0.200684,-0.91333,-0.421184];
+				_vehiclesX pushBack _bunker;
+				_typeVehX = selectRandom (_faction get "staticMGs");
+				_veh = _typeVehX createVehicle _positionX;
+				_vehiclesX pushBack _veh;
+				_veh setPosATL _pos;
+				_veh setDir _dirVeh + 180;
+
+				_typeUnit = _faction get "unitStaticCrew";
+				_unit = [_groupE, _typeUnit, _positionX, [], 0, "NONE"] call A3A_fnc_createUnit;
+				_unit moveInGunner _veh;
+				_soldiers pushBack _unit;
 			} else {
 				_bunker = "Land_BagBunker_01_Small_green_F" createVehicle _pos;
 				_bunker setDir _dirveh + 180;
 				_pos = getPosATL _bunker;
+				_vehiclesX pushBack _bunker;
 			};
-			_vehiclesX pushBack _bunker;
 			_pos = [getPos _bunker, 6, getDir _bunker] call BIS_fnc_relPos;
 			_typeVehX = _faction get "flag";
 			_veh = createVehicle [_typeVehX, _pos, [],0, "NONE"];
