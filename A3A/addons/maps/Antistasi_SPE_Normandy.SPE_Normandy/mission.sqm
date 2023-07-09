@@ -8,7 +8,7 @@ class EditorData
 	toggles=1025;
 	class ItemIDProvider
 	{
-		nextID=6331;
+		nextID=6334;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=2868;
+		nextID=2943;
 	};
 	class Camera
 	{
-		pos[]={1701.9231,118.64759,382.35629};
-		dir[]={0.4185617,-0.45062667,0.78852975};
-		up[]={0.2112858,0.89270008,0.39804062};
-		aside[]={0.88329333,-4.642643e-007,-0.46886203};
+		pos[]={9651.7881,96.126396,6388.8804};
+		dir[]={-0.60290837,-0.72560126,-0.33171368};
+		up[]={-0.63573527,0.68811387,-0.34977466};
+		aside[]={-0.4820542,9.8778401e-008,0.87615925};
 	};
 };
 binarizationWanted=0;
@@ -5174,7 +5174,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={11065.207,44.484142,9974.6855};
-								angles[]={-0,2.812557,0};
+								angles[]={0,2.812557,0};
 							};
 							side="Empty";
 							flags=4;
@@ -17083,7 +17083,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={1812.583,52.86414,302.91473};
-								angles[]={-0,3.8052719,0};
+								angles[]={0,3.8052719,0};
 							};
 							side="Empty";
 							flags=4;
@@ -20999,7 +20999,7 @@ class Mission
 					name="controls";
 					class Entities
 					{
-						items=1;
+						items=4;
 						class Item0
 						{
 							dataType="Marker";
@@ -21012,9 +21012,45 @@ class Mission
 							id=1137;
 							atlOffset=3.8146973e-006;
 						};
+						class Item1
+						{
+							dataType="Marker";
+							position[]={9805.8018,60.42683,6790.9199};
+							name="control_1";
+							markerType="RECTANGLE";
+							type="rectangle";
+							a=40;
+							b=40;
+							id=6331;
+							atlOffset=3.8146973e-006;
+						};
+						class Item2
+						{
+							dataType="Marker";
+							position[]={9737.0996,61.405636,6608.3647};
+							name="control_2";
+							markerType="RECTANGLE";
+							type="rectangle";
+							a=40;
+							b=40;
+							id=6332;
+							atlOffset=3.8146973e-006;
+						};
+						class Item3
+						{
+							dataType="Marker";
+							position[]={9630.623,71.014786,6382.4531};
+							name="control_3";
+							markerType="RECTANGLE";
+							type="rectangle";
+							a=40;
+							b=40;
+							id=6333;
+							atlOffset=7.6293945e-006;
+						};
 					};
 					id=1136;
-					atlOffset=3.8146973e-006;
+					atlOffset=-9.3755035;
 				};
 				class Item3
 				{
@@ -64504,7 +64540,7 @@ class Mission
 						};
 					};
 					id=1473;
-					atlOffset=0.065460205;
+					atlOffset=-0.50266647;
 				};
 				class Item23
 				{
@@ -66170,7 +66206,7 @@ class Mission
 				};
 			};
 			id=792;
-			atlOffset=-3.5091248;
+			atlOffset=-3.4938316;
 		};
 		class Item4
 		{
