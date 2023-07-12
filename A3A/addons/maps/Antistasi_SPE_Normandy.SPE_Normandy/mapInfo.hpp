@@ -15,7 +15,7 @@ class SPE_Normandy {
 		{},{"control_17","control_18","control_19","control_32","control_33","control_51","control_56","control_57"}
 	};
 	fuelStationTypes[] = {
-		"Land_FuelStation_Feed_F","Land_fs_feed_F","Land_FuelStation_01_pump_malevil_F","Land_FuelStation_01_pump_F","Land_FuelStation_02_pump_F","Land_FuelStation_03_pump_F"
+		"Land_FuelStation_Feed_F","Land_fs_feed_F","Land_FuelStation_01_pump_malevil_F","Land_FuelStation_01_pump_F","Land_FuelStation_02_pump_F","Land_FuelStation_03_pump_F","SPE_Fuel_Barrel_German_01","SPE_Fuel_Barrel_US_01"
 	};
 	climate = "arid";
 };

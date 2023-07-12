@@ -8,7 +8,7 @@ class EditorData
 	toggles=1025;
 	class ItemIDProvider
 	{
-		nextID=6483;
+		nextID=6750;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=3018;
+		nextID=3107;
 	};
 	class Camera
 	{
-		pos[]={5285.3716,240.05675,2964.9573};
-		dir[]={-0.17562236,-0.52973908,0.82977915};
-		up[]={-0.10968921,0.84816128,0.51825893};
-		aside[]={0.97832841,6.9558155e-009,0.20706265};
+		pos[]={10338.373,81.641281,4769.479};
+		dir[]={-0.56624919,-0.70884353,-0.42071086};
+		up[]={-0.56901902,0.7053321,-0.42276829};
+		aside[]={-0.59641689,1.3364479e-007,0.80273736};
 	};
 };
 binarizationWanted=0;
@@ -48,7 +48,6 @@ addons[]=
 	"A3_Props_F_Exp_Commercial_Market",
 	"A3_Structures_F_Enoch_Military_Bunkers",
 	"A3_Structures_F_Ind_Transmitter_Tower",
-	"WW2_SPE_Assets_c_Weapons_Ammoboxes_c",
 	"A3_Structures_F_Exp_Walls_Tin",
 	"A3_Characters_F",
 	"A3_Weapons_F",
@@ -60,10 +59,12 @@ addons[]=
 	"A3_Structures_F_Enoch_Industrial_Materials",
 	"A3_Structures_F_Enoch_Walls_Wooden",
 	"A3_Structures_F_Exp_Cultural_Fortress_01",
+	"WW2_SPE_Assets_c_Weapons_Ammoboxes_c",
 	"A3_Structures_F_Civ_Camping",
 	"A3_Rocks_F_Enoch",
 	"A3_Structures_F_System",
-	"A3_Props_F_Enoch_Civilian_Forest"
+	"A3_Props_F_Enoch_Civilian_Forest",
+	"A3_Structures_F_Ind_FuelStation"
 };
 class AddonsMetaData
 {
@@ -163,62 +164,62 @@ class AddonsMetaData
 		};
 		class Item15
 		{
-			className="WW2_SPE_Assets_c_Weapons_Ammoboxes_c";
-			name="WW2_SPE_Assets_c_Weapons_Ammoboxes_c";
-		};
-		class Item16
-		{
 			className="A3_Characters_F";
 			name="Arma 3 Alpha - Characters and Clothing";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item17
+		class Item16
 		{
 			className="A3_Weapons_F";
 			name="Arma 3 Alpha - Weapons and Accessories";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item18
+		class Item17
 		{
 			className="WW2_SPE_Assets_c_Weapons_InfantryWeapons_c";
 			name="WW2_SPE_Assets_c_Weapons_InfantryWeapons_c";
 		};
-		class Item19
+		class Item18
 		{
 			className="A3_Modules_F_Curator";
 			name="Arma 3 Zeus Update - Scripted Modules";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item20
+		class Item19
 		{
 			className="A3_Structures_F_Exp_Civilian";
 			name="Arma 3 Apex - Civilian Buildings";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item21
+		class Item20
 		{
 			className="A3_Structures_F_Enoch_Industrial";
 			name="Arma 3 Contact Platform - Industrial Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item22
+		class Item21
 		{
 			className="A3_Structures_F_Enoch";
 			name="Arma 3 Contact Platform - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item23
+		class Item22
 		{
 			className="A3_Structures_F_Exp_Cultural";
 			name="Arma 3 Apex - Cultural Buildings";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
+		};
+		class Item23
+		{
+			className="WW2_SPE_Assets_c_Weapons_Ammoboxes_c";
+			name="WW2_SPE_Assets_c_Weapons_Ammoboxes_c";
 		};
 		class Item24
 		{
@@ -271,7 +272,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=5;
+		items=6;
 		class Item0
 		{
 			dataType="Layer";
@@ -4061,7 +4062,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={11079.403,40.769966,10084.706};
-								angles[]={0,4.7935352,-0};
+								angles[]={0,4.7935352,0};
 							};
 							side="Empty";
 							flags=5;
@@ -5053,7 +5054,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={11042.584,37.398842,10051.938};
-								angles[]={-0,2.6990013,0};
+								angles[]={0,2.6990013,0};
 							};
 							side="Empty";
 							flags=4;
@@ -5410,7 +5411,7 @@ class Mission
 							colorName="ColorCIV";
 							a=8;
 							b=8;
-							angle=202.97453;
+							angle=202.97452;
 							id=6340;
 							atlOffset=10.817001;
 						};
@@ -5424,7 +5425,7 @@ class Mission
 							colorName="ColorCIV";
 							a=8;
 							b=8;
-							angle=318.08478;
+							angle=318.08475;
 							id=6341;
 							atlOffset=10.817001;
 						};
@@ -9180,7 +9181,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={8633.4297,84.29155,3235.5269};
-								angles[]={0,6.0713692,-0};
+								angles[]={0,6.0713692,0};
 							};
 							side="Empty";
 							flags=5;
@@ -11253,7 +11254,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={2768.1553,77.077225,10224.309};
-								angles[]={0,1.4837188,-0};
+								angles[]={0,1.4837188,0};
 							};
 							side="Empty";
 							flags=5;
@@ -14799,7 +14800,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={1830.7052,43.504261,163.20808};
-								angles[]={0,5.767169,-0};
+								angles[]={0,5.767169,0};
 							};
 							side="Empty";
 							flags=5;
@@ -15366,8 +15367,8 @@ class Mission
 							{
 							};
 							id=5774;
-							type="SPE_Fuel_Barrel_German_01";
-							atlOffset=3.8146973e-006;
+							type="Land_SPE_Fuel_Barrel_German";
+							atlOffset=4.196167e-005;
 						};
 						class Item177
 						{
@@ -15383,8 +15384,8 @@ class Mission
 							{
 							};
 							id=5775;
-							type="SPE_Fuel_Barrel_German_01";
-							atlOffset=3.8146973e-006;
+							type="Land_SPE_Fuel_Barrel_German";
+							atlOffset=6.4849854e-005;
 						};
 						class Item178
 						{
@@ -15400,8 +15401,8 @@ class Mission
 							{
 							};
 							id=5776;
-							type="SPE_Fuel_Barrel_German_01";
-							atlOffset=-7.6293945e-006;
+							type="Land_SPE_Fuel_Barrel_German";
+							atlOffset=5.3405762e-005;
 						};
 						class Item179
 						{
@@ -15417,8 +15418,8 @@ class Mission
 							{
 							};
 							id=5777;
-							type="SPE_Fuel_Barrel_German_01";
-							atlOffset=3.8146973e-006;
+							type="Land_SPE_Fuel_Barrel_German";
+							atlOffset=6.4849854e-005;
 						};
 						class Item180
 						{
@@ -15434,7 +15435,8 @@ class Mission
 							{
 							};
 							id=5778;
-							type="SPE_Fuel_Barrel_German_01";
+							type="Land_SPE_Fuel_Barrel_German";
+							atlOffset=6.8664551e-005;
 						};
 						class Item181
 						{
@@ -15450,7 +15452,8 @@ class Mission
 							{
 							};
 							id=5779;
-							type="SPE_Fuel_Barrel_German_01";
+							type="Land_SPE_Fuel_Barrel_German";
+							atlOffset=6.8664551e-005;
 						};
 						class Item182
 						{
@@ -15466,7 +15469,8 @@ class Mission
 							{
 							};
 							id=5780;
-							type="SPE_Fuel_Barrel_German_01";
+							type="Land_SPE_Fuel_Barrel_German";
+							atlOffset=6.1035156e-005;
 						};
 						class Item183
 						{
@@ -17446,7 +17450,7 @@ class Mission
 							colorName="ColorCIV";
 							a=8;
 							b=8;
-							angle=16.140697;
+							angle=16.140696;
 							id=6334;
 							atlOffset=10.817345;
 						};
@@ -17460,7 +17464,7 @@ class Mission
 							colorName="ColorCIV";
 							a=8;
 							b=8;
-							angle=16.140696;
+							angle=16.140694;
 							id=6338;
 							atlOffset=10.817348;
 						};
@@ -17515,7 +17519,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={1834.677,66.745743,309.69754};
-								angles[]={0,2.2706978,-0};
+								angles[]={0,2.2706978,0};
 							};
 							side="Empty";
 							flags=5;
@@ -17524,10 +17528,11 @@ class Mission
 							};
 							id=6475;
 							type="Land_TTowerBig_2_F";
+							atlOffset=3.8146973e-006;
 						};
 					};
 					id=1047;
-					atlOffset=1.0347099;
+					atlOffset=1.0347137;
 				};
 				class Item4
 				{
@@ -19603,7 +19608,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={3342.4524,89.601334,5770.3022};
-								angles[]={0,2.743624,-0};
+								angles[]={0,2.743624,0};
 							};
 							side="Empty";
 							flags=5;
@@ -19619,7 +19624,7 @@ class Mission
 				};
 			};
 			id=1025;
-			atlOffset=-21.237038;
+			atlOffset=9.819088;
 		};
 		class Item1
 		{
@@ -21330,7 +21335,7 @@ class Mission
 							type="rectangle";
 							a=5;
 							b=5;
-							angle=91.201088;
+							angle=91.20108;
 							id=6350;
 						};
 						class Item4
@@ -21342,7 +21347,7 @@ class Mission
 							type="rectangle";
 							a=5;
 							b=5;
-							angle=78.959419;
+							angle=78.959412;
 							id=6352;
 							atlOffset=0.05644989;
 						};
@@ -21355,7 +21360,7 @@ class Mission
 							type="rectangle";
 							a=5;
 							b=5;
-							angle=77.665565;
+							angle=77.665558;
 							id=6354;
 						};
 						class Item6
@@ -21380,7 +21385,7 @@ class Mission
 							type="rectangle";
 							a=5;
 							b=5;
-							angle=259.96722;
+							angle=259.96719;
 							id=6358;
 						};
 						class Item8
@@ -21416,7 +21421,7 @@ class Mission
 							type="rectangle";
 							a=5;
 							b=5;
-							angle=344.59442;
+							angle=344.59439;
 							id=6364;
 						};
 						class Item11
@@ -21428,7 +21433,7 @@ class Mission
 							type="rectangle";
 							a=5;
 							b=5;
-							angle=157.16782;
+							angle=157.1678;
 							id=6366;
 						};
 						class Item12
@@ -21440,7 +21445,7 @@ class Mission
 							type="rectangle";
 							a=5;
 							b=5;
-							angle=62.952271;
+							angle=62.952267;
 							id=6368;
 						};
 						class Item13
@@ -21452,7 +21457,7 @@ class Mission
 							type="rectangle";
 							a=5;
 							b=5;
-							angle=55.388557;
+							angle=55.388554;
 							id=6370;
 						};
 						class Item14
@@ -21476,7 +21481,7 @@ class Mission
 							type="rectangle";
 							a=5;
 							b=5;
-							angle=72.533577;
+							angle=72.533569;
 							id=6374;
 						};
 						class Item16
@@ -21488,7 +21493,7 @@ class Mission
 							type="rectangle";
 							a=5;
 							b=5;
-							angle=72.064537;
+							angle=72.064529;
 							id=6376;
 						};
 						class Item17
@@ -21512,7 +21517,7 @@ class Mission
 							type="rectangle";
 							a=5;
 							b=5;
-							angle=248.46645;
+							angle=248.46642;
 							id=6380;
 						};
 						class Item19
@@ -21524,7 +21529,7 @@ class Mission
 							type="rectangle";
 							a=5;
 							b=5;
-							angle=322.75906;
+							angle=322.75903;
 							id=6382;
 							atlOffset=0.056446075;
 						};
@@ -21549,7 +21554,7 @@ class Mission
 							type="rectangle";
 							a=5;
 							b=5;
-							angle=304.91187;
+							angle=304.91183;
 							id=6386;
 						};
 						class Item22
@@ -21597,7 +21602,7 @@ class Mission
 							type="rectangle";
 							a=5;
 							b=5;
-							angle=37.592258;
+							angle=37.592255;
 							id=6394;
 						};
 						class Item26
@@ -21621,7 +21626,7 @@ class Mission
 							type="rectangle";
 							a=5;
 							b=5;
-							angle=212.35548;
+							angle=212.35547;
 							id=6398;
 						};
 						class Item28
@@ -21645,7 +21650,7 @@ class Mission
 							type="rectangle";
 							a=5;
 							b=5;
-							angle=47.542435;
+							angle=47.542431;
 							id=6406;
 						};
 						class Item30
@@ -21657,7 +21662,7 @@ class Mission
 							type="rectangle";
 							a=5;
 							b=5;
-							angle=257.78198;
+							angle=257.78195;
 							id=6408;
 						};
 						class Item31
@@ -21669,7 +21674,7 @@ class Mission
 							type="rectangle";
 							a=5;
 							b=5;
-							angle=137.83362;
+							angle=137.8336;
 							id=6410;
 						};
 						class Item32
@@ -21681,7 +21686,7 @@ class Mission
 							type="rectangle";
 							a=5;
 							b=5;
-							angle=177.9476;
+							angle=177.94759;
 							id=6412;
 						};
 						class Item33
@@ -21693,7 +21698,7 @@ class Mission
 							type="rectangle";
 							a=5;
 							b=5;
-							angle=69.708107;
+							angle=69.708099;
 							id=6414;
 						};
 						class Item34
@@ -21718,7 +21723,7 @@ class Mission
 							type="rectangle";
 							a=5;
 							b=5;
-							angle=45.273609;
+							angle=45.273605;
 							id=6418;
 						};
 						class Item36
@@ -21730,7 +21735,7 @@ class Mission
 							type="rectangle";
 							a=5;
 							b=5;
-							angle=226.83478;
+							angle=226.83476;
 							id=6420;
 							atlOffset=0.056453705;
 						};
@@ -21743,7 +21748,7 @@ class Mission
 							type="rectangle";
 							a=5;
 							b=5;
-							angle=213.06784;
+							angle=213.06783;
 							id=6422;
 						};
 						class Item38
@@ -21755,7 +21760,7 @@ class Mission
 							type="rectangle";
 							a=5;
 							b=5;
-							angle=136.79704;
+							angle=136.79703;
 							id=6424;
 						};
 						class Item39
@@ -21767,7 +21772,7 @@ class Mission
 							type="rectangle";
 							a=5;
 							b=5;
-							angle=175.49353;
+							angle=175.49352;
 							id=6426;
 						};
 						class Item40
@@ -21791,7 +21796,7 @@ class Mission
 							type="rectangle";
 							a=5;
 							b=5;
-							angle=223.55461;
+							angle=223.5546;
 							id=6430;
 							atlOffset=0.056446075;
 						};
@@ -21804,7 +21809,7 @@ class Mission
 							type="rectangle";
 							a=5;
 							b=5;
-							angle=75.379341;
+							angle=75.379333;
 							id=6432;
 						};
 						class Item43
@@ -21841,7 +21846,7 @@ class Mission
 							type="rectangle";
 							a=5;
 							b=5;
-							angle=123.37176;
+							angle=123.37175;
 							id=6438;
 							atlOffset=0.056446075;
 						};
@@ -21854,7 +21859,7 @@ class Mission
 							type="rectangle";
 							a=5;
 							b=5;
-							angle=124.95404;
+							angle=124.95403;
 							id=6440;
 						};
 						class Item47
@@ -21866,7 +21871,7 @@ class Mission
 							type="rectangle";
 							a=5;
 							b=5;
-							angle=229.8187;
+							angle=229.81866;
 							id=6442;
 						};
 						class Item48
@@ -21878,7 +21883,7 @@ class Mission
 							type="rectangle";
 							a=5;
 							b=5;
-							angle=150.37196;
+							angle=150.37195;
 							id=6444;
 						};
 						class Item49
@@ -21902,7 +21907,7 @@ class Mission
 							type="rectangle";
 							a=5;
 							b=5;
-							angle=123.75803;
+							angle=123.75802;
 							id=6448;
 							atlOffset=0.056446075;
 						};
@@ -21915,7 +21920,7 @@ class Mission
 							type="rectangle";
 							a=5;
 							b=5;
-							angle=307.08563;
+							angle=307.0856;
 							id=6450;
 							atlOffset=0.056446075;
 						};
@@ -21954,7 +21959,7 @@ class Mission
 							type="rectangle";
 							a=5;
 							b=5;
-							angle=22.24865;
+							angle=22.248648;
 							id=6458;
 							atlOffset=0.056446075;
 						};
@@ -21967,7 +21972,7 @@ class Mission
 							type="rectangle";
 							a=5;
 							b=5;
-							angle=213.24344;
+							angle=213.24342;
 							id=6460;
 						};
 						class Item56
@@ -21979,7 +21984,7 @@ class Mission
 							type="rectangle";
 							a=5;
 							b=5;
-							angle=52.732281;
+							angle=52.732277;
 							id=6462;
 						};
 						class Item57
@@ -22166,7 +22171,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={9288.8252,80.020798,2434.4631};
-								angles[]={-0,1.5950809,6.2798738};
+								angles[]={0,1.5950809,6.2798738};
 							};
 							areaSize[]={14.369928,0,6.7103634};
 							areaIsRectangle=1;
@@ -23914,7 +23919,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={9993.4541,36.303555,4571.1563};
-								angles[]={-0,1.3187424,0};
+								angles[]={0,1.3187424,0};
 							};
 							areaSize[]={14.369928,0,6.7103634};
 							areaIsRectangle=1;
@@ -24048,7 +24053,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={3923.9351,47.550217,2769.2422};
-								angles[]={-0,2.1569631,6.2798738};
+								angles[]={0,2.1569631,6.2798738};
 							};
 							areaSize[]={14.369928,0,6.7103634};
 							areaIsRectangle=1;
@@ -24538,7 +24543,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={1387.0183,46.449978,11249.999};
-								angles[]={-0,0.92334408,6.2698579};
+								angles[]={0,0.92334408,6.2698579};
 							};
 							areaSize[]={14.369928,0,6.7103634};
 							areaIsRectangle=1;
@@ -24586,7 +24591,7 @@ class Mission
 					dataType="Layer";
 					name="detectPlayer";
 					id=1142;
-					atlOffset=3.9968719;
+					atlOffset=-22.940001;
 				};
 				class Item4
 				{
@@ -24708,6 +24713,7 @@ class Mission
 							};
 							id=5535;
 							type="Land_SPE_BarbedWire_04";
+							atlOffset=4.7683716e-007;
 						};
 						class Item4
 						{
@@ -24724,6 +24730,7 @@ class Mission
 							};
 							id=5536;
 							type="Land_SPE_BarbedWire_04";
+							atlOffset=4.7683716e-007;
 						};
 						class Item5
 						{
@@ -24879,6 +24886,7 @@ class Mission
 							};
 							id=5538;
 							type="Land_SPE_HedgeHog";
+							atlOffset=4.7683716e-007;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -24914,6 +24922,7 @@ class Mission
 							};
 							id=5539;
 							type="Land_SPE_HedgeHog";
+							atlOffset=4.7683716e-007;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -24949,6 +24958,7 @@ class Mission
 							};
 							id=5540;
 							type="Land_SPE_HedgeHog";
+							atlOffset=4.7683716e-007;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -24984,6 +24994,7 @@ class Mission
 							};
 							id=5541;
 							type="Land_SPE_HedgeHog";
+							atlOffset=4.7683716e-007;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -30370,7 +30381,7 @@ class Mission
 							{
 							};
 							id=5231;
-							type="SPE_Fuel_Barrel_German_01";
+							type="Land_SPE_Fuel_Barrel_German";
 						};
 						class Item21
 						{
@@ -30386,7 +30397,7 @@ class Mission
 							{
 							};
 							id=5232;
-							type="SPE_Fuel_Barrel_German_01";
+							type="Land_SPE_Fuel_Barrel_German";
 						};
 						class Item22
 						{
@@ -30402,7 +30413,7 @@ class Mission
 							{
 							};
 							id=5233;
-							type="SPE_Fuel_Barrel_German_01";
+							type="Land_SPE_Fuel_Barrel_German";
 						};
 						class Item23
 						{
@@ -37573,7 +37584,7 @@ class Mission
 				};
 			};
 			id=1144;
-			atlOffset=-34.208828;
+			atlOffset=-0.70825958;
 		};
 		class Item3
 		{
@@ -45178,7 +45189,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={8164.4395,114.84975,1116.1797};
-								angles[]={0,6.2782202,-0};
+								angles[]={0,6.2782202,0};
 							};
 							side="Empty";
 							flags=5;
@@ -52855,7 +52866,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={5160.5825,80.848419,3227.6206};
-								angles[]={0,4.5782061,-0};
+								angles[]={0,4.5782061,0};
 							};
 							side="Empty";
 							flags=5;
@@ -52864,6 +52875,7 @@ class Mission
 							};
 							id=6477;
 							type="Land_TTowerBig_2_F";
+							atlOffset=-3.8146973e-006;
 						};
 					};
 					id=843;
@@ -60957,7 +60969,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={7848.8833,75.958908,7550.4692};
-								angles[]={0,3.1325495,-0};
+								angles[]={0,3.1325495,0};
 							};
 							side="Empty";
 							flags=5;
@@ -60966,6 +60978,7 @@ class Mission
 							};
 							id=6478;
 							type="Land_TTowerBig_2_F";
+							atlOffset=3.8146973e-006;
 						};
 					};
 					id=878;
@@ -67746,7 +67759,7 @@ class Mission
 						};
 					};
 					id=1472;
-					atlOffset=-14.318954;
+					atlOffset=3.7191429;
 				};
 				class Item22
 				{
@@ -68240,7 +68253,7 @@ class Mission
 							{
 							};
 							id=4117;
-							type="SPE_Fuel_Barrel_German_01";
+							type="Land_SPE_Fuel_Barrel_German";
 						};
 						class Item14
 						{
@@ -68255,7 +68268,7 @@ class Mission
 							{
 							};
 							id=4118;
-							type="SPE_Fuel_Barrel_German_01";
+							type="Land_SPE_Fuel_Barrel_German";
 						};
 						class Item15
 						{
@@ -68271,7 +68284,7 @@ class Mission
 							{
 							};
 							id=4119;
-							type="SPE_Fuel_Barrel_German_01";
+							type="Land_SPE_Fuel_Barrel_German";
 						};
 						class Item16
 						{
@@ -68286,7 +68299,7 @@ class Mission
 							{
 							};
 							id=4120;
-							type="SPE_Fuel_Barrel_German_01";
+							type="Land_SPE_Fuel_Barrel_German";
 						};
 						class Item17
 						{
@@ -69389,7 +69402,7 @@ class Mission
 				};
 			};
 			id=792;
-			atlOffset=-3.5226936;
+			atlOffset=-6.3491135;
 		};
 		class Item4
 		{
@@ -77718,7 +77731,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={11356.777,81.147568,6093.0928};
-								angles[]={0,3.1675391,-0};
+								angles[]={0,3.1675391,0};
 							};
 							side="Empty";
 							flags=5;
@@ -77727,6 +77740,7 @@ class Mission
 							};
 							id=6481;
 							type="Land_TTowerBig_2_F";
+							atlOffset=3.8146973e-006;
 						};
 					};
 					id=910;
@@ -79235,7 +79249,8 @@ class Mission
 							{
 							};
 							id=4196;
-							type="SPE_Fuel_Barrel_German_01";
+							type="Land_SPE_Fuel_Barrel_German";
+							atlOffset=0.00016784668;
 						};
 						class Item19
 						{
@@ -79251,7 +79266,8 @@ class Mission
 							{
 							};
 							id=4197;
-							type="SPE_Fuel_Barrel_German_01";
+							type="Land_SPE_Fuel_Barrel_German";
+							atlOffset=0.00016403198;
 						};
 						class Item20
 						{
@@ -79267,7 +79283,8 @@ class Mission
 							{
 							};
 							id=4198;
-							type="SPE_Fuel_Barrel_German_01";
+							type="Land_SPE_Fuel_Barrel_German";
+							atlOffset=0.00016403198;
 						};
 						class Item21
 						{
@@ -81471,7 +81488,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={6925.1753,74.125038,5048.4268};
-								angles[]={0,3.5665174,-0};
+								angles[]={0,3.5665174,0};
 							};
 							side="Empty";
 							flags=5;
@@ -88217,7 +88234,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={7843.5664,67.069229,9963.2139};
-								angles[]={0,3.069247,-0};
+								angles[]={0,3.069247,0};
 							};
 							side="Empty";
 							flags=5;
@@ -88226,10 +88243,11 @@ class Mission
 							};
 							id=6482;
 							type="Land_TTowerBig_2_F";
+							atlOffset=3.8146973e-006;
 						};
 					};
 					id=946;
-					atlOffset=0.14539719;
+					atlOffset=0.145401;
 				};
 				class Item14
 				{
@@ -89620,7 +89638,3789 @@ class Mission
 				};
 			};
 			id=893;
-			atlOffset=-3.9966125;
+			atlOffset=10.186785;
+		};
+		class Item5
+		{
+			dataType="Layer";
+			name="fuelstations";
+			class Entities
+			{
+				items=12;
+				class Item0
+				{
+					dataType="Layer";
+					name="FuelStation";
+					class Entities
+					{
+						items=17;
+						class Item0
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={6439.6519,51.039906,7060.187};
+								angles[]={0,2.6204576,-0};
+							};
+							side="Empty";
+							flags=5;
+							class Attributes
+							{
+							};
+							id=6484;
+							type="Land_FuelStation_Feed_F";
+						};
+						class Item1
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={6441.5581,50.290001,7056.3252};
+								angles[]={0,5.7472267,-0};
+							};
+							side="Empty";
+							flags=5;
+							class Attributes
+							{
+							};
+							id=6485;
+							type="Land_SPE_House_Small_04";
+						};
+						class Item2
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={6442.6406,50.290001,7062.5957};
+								angles[]={0,5.7634192,-0};
+							};
+							side="Empty";
+							flags=5;
+							class Attributes
+							{
+							};
+							id=6486;
+							type="Land_SPE_Dugout_Decal_03";
+						};
+						class Item3
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={6434.2417,50.290001,7057.9136};
+								angles[]={0,2.6333339,-0};
+							};
+							side="Empty";
+							flags=5;
+							class Attributes
+							{
+							};
+							id=6487;
+							type="Land_SPE_Dugout_Decal_03";
+						};
+						class Item4
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={6437.7188,50.290001,7059.7939};
+								angles[]={0,2.6204576,-0};
+							};
+							side="Empty";
+							flags=5;
+							class Attributes
+							{
+							};
+							id=6488;
+							type="Land_SPE_Dugout_Decal_01";
+						};
+						class Item5
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={6436.2407,51.039906,7058.1709};
+								angles[]={0,5.7262168,-0};
+							};
+							side="Empty";
+							flags=5;
+							class Attributes
+							{
+							};
+							id=6489;
+							type="Land_FuelStation_Feed_F";
+						};
+						class Item6
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={6441.5117,50.730133,7059.2935};
+								angles[]={-0,2.6204576,0};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=6490;
+							type="Land_SPE_Fuel_Barrel_German";
+						};
+						class Item7
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={6440.7891,50.730133,7058.7886};
+								angles[]={-0,2.6204576,0};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=6491;
+							type="Land_SPE_Fuel_Barrel_German";
+						};
+						class Item8
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={6439.9546,50.730133,7058.3667};
+								angles[]={-0,2.6204576,0};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=6492;
+							type="Land_SPE_Fuel_Barrel_German";
+						};
+						class Item9
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={6440.8623,50.730133,7059.5674};
+								angles[]={-0,2.6204576,0};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=6493;
+							type="Land_SPE_Fuel_Barrel_German";
+						};
+						class Item10
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={6440.2114,50.730133,7059.2271};
+								angles[]={-0,2.6204576,0};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=6494;
+							type="Land_SPE_Fuel_Barrel_German";
+						};
+						class Item11
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={6438.4146,50.730133,7057.4463};
+								angles[]={-0,2.6204576,0};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=6495;
+							type="Land_SPE_Fuel_Barrel_German";
+						};
+						class Item12
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={6437.5015,50.730133,7056.98};
+								angles[]={-0,2.6204576,0};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=6496;
+							type="Land_SPE_Fuel_Barrel_German";
+						};
+						class Item13
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={6438.8672,50.730133,7058.5508};
+								angles[]={-0,2.6204576,0};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=6497;
+							type="Land_SPE_Fuel_Barrel_German";
+						};
+						class Item14
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={6438.23,50.730133,7059.0088};
+								angles[]={-0,2.6204576,0};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=6498;
+							type="Land_SPE_Fuel_Barrel_German";
+						};
+						class Item15
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={6437.4458,50.730133,7058.0469};
+								angles[]={-0,2.6204576,0};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=6499;
+							type="Land_SPE_Fuel_Barrel_German";
+						};
+						class Item16
+						{
+							dataType="Logic";
+							class PositionInfo
+							{
+								position[]={6439.8369,50.290001,7058.415};
+								angles[]={-0,2.6204548,0};
+							};
+							areaSize[]={10.483,0,10.424};
+							flags=1;
+							id=6500;
+							type="ModuleHideTerrainObjects_F";
+							class CustomAttributes
+							{
+								class Attribute0
+								{
+									property="#filter";
+									expression="_this setVariable [""#filter"",_value]";
+									class Value
+									{
+										class data
+										{
+											singleType="SCALAR";
+											value=7;
+										};
+									};
+								};
+								class Attribute1
+								{
+									property="#hideLocally";
+									expression="_this setVariable [""#hideLocally"",_value]";
+									class Value
+									{
+										class data
+										{
+											singleType="BOOL";
+											value=0;
+										};
+									};
+								};
+								nAttributes=2;
+							};
+						};
+					};
+					id=6483;
+				};
+				class Item1
+				{
+					dataType="Layer";
+					name="FuelStation_1";
+					class Entities
+					{
+						items=17;
+						class Item0
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={9893.7832,52.721478,7503.9829};
+								angles[]={0,4.3164825,-0};
+							};
+							side="Empty";
+							flags=5;
+							class Attributes
+							{
+							};
+							id=6503;
+							type="Land_FuelStation_Feed_F";
+						};
+						class Item1
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={9889.7139,52.088486,7502.5737};
+								angles[]={0,1.1600657,-0};
+							};
+							side="Empty";
+							flags=5;
+							class Attributes
+							{
+							};
+							id=6504;
+							type="Land_SPE_House_Small_04";
+						};
+						class Item2
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={9895.7998,52.049309,7500.7168};
+								angles[]={0,1.1762583,-0};
+							};
+							side="Empty";
+							flags=5;
+							class Attributes
+							{
+							};
+							id=6505;
+							type="Land_SPE_Dugout_Decal_03";
+						};
+						class Item3
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={9892.2041,51.824917,7509.6338};
+								angles[]={0,4.3293586,-0};
+							};
+							side="Empty";
+							flags=5;
+							class Attributes
+							{
+							};
+							id=6506;
+							type="Land_SPE_Dugout_Decal_03";
+						};
+						class Item4
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={9893.6348,52.015118,7505.9497};
+								angles[]={0,4.3164825,-0};
+							};
+							side="Empty";
+							flags=5;
+							class Attributes
+							{
+							};
+							id=6507;
+							type="Land_SPE_Dugout_Decal_01";
+							atlOffset=0.10616302;
+						};
+						class Item5
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={9892.209,52.631763,7507.6187};
+								angles[]={0,1.1390557,-0};
+							};
+							side="Empty";
+							flags=5;
+							class Attributes
+							{
+							};
+							id=6508;
+							type="Land_FuelStation_Feed_F";
+						};
+						class Item6
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={9892.6641,52.492428,7502.249};
+								angles[]={0.039979152,4.316813,6.2665191};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=6509;
+							type="Land_SPE_Fuel_Barrel_German";
+						};
+						class Item7
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={9892.2539,52.468357,7503.0288};
+								angles[]={0.02999169,4.316813,6.2665191};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=6510;
+							type="Land_SPE_Fuel_Barrel_German";
+						};
+						class Item8
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={9891.9395,52.45285,7503.9097};
+								angles[]={0.02999169,4.2647662,6.2665191};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=6511;
+							type="Land_SPE_Fuel_Barrel_German";
+							atlOffset=0.0056724548;
+						};
+						class Item9
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={9893.0176,52.462128,7502.8589};
+								angles[]={0.039979152,4.3168149,6.2665191};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=6512;
+							type="Land_SPE_Fuel_Barrel_German";
+						};
+						class Item10
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={9892.7607,52.444351,7503.5479};
+								angles[]={0.02999169,4.3168149,6.2665191};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=6513;
+							type="Land_SPE_Fuel_Barrel_German";
+						};
+						class Item11
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={9891.2188,52.535618,7505.5522};
+								angles[]={0.02999169,4.3494515,6.2665191};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=6514;
+							type="Land_SPE_Fuel_Barrel_German";
+							atlOffset=0.12571335;
+						};
+						class Item12
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={9890.8701,52.383331,7506.5171};
+								angles[]={0.033319358,4.3167973,6.2798557};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=6515;
+							type="Land_SPE_Fuel_Barrel_German";
+							atlOffset=3.8146973e-006;
+						};
+						class Item13
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={9892.2578,52.715782,7504.9658};
+								angles[]={0,4.3205194,0};
+							};
+							side="Empty";
+							class Attributes
+							{
+							};
+							id=6516;
+							type="Land_SPE_Fuel_Barrel_German";
+							atlOffset=0.30634308;
+						};
+						class Item14
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={9892.792,52.443153,7505.54};
+								angles[]={0.033321146,4.3141956,6.2631893};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=6517;
+							type="Land_SPE_Fuel_Barrel_German";
+							atlOffset=0.063533783;
+						};
+						class Item15
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={9891.9355,52.411774,7506.4385};
+								angles[]={0.033321146,4.3632002,6.2631893};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=6518;
+							type="Land_SPE_Fuel_Barrel_German";
+							atlOffset=0.044986725;
+						};
+						class Item16
+						{
+							dataType="Logic";
+							class PositionInfo
+							{
+								position[]={9891.1133,52.056755,7505.9658};
+								angles[]={0.02999169,4.3164825,6.2665191};
+							};
+							areaSize[]={14.559351,0,10.353918};
+							flags=1;
+							id=6519;
+							type="ModuleHideTerrainObjects_F";
+							atlOffset=0.097904205;
+							class CustomAttributes
+							{
+								class Attribute0
+								{
+									property="#filter";
+									expression="_this setVariable [""#filter"",_value]";
+									class Value
+									{
+										class data
+										{
+											singleType="SCALAR";
+											value=15;
+										};
+									};
+								};
+								class Attribute1
+								{
+									property="#hideLocally";
+									expression="_this setVariable [""#hideLocally"",_value]";
+									class Value
+									{
+										class data
+										{
+											singleType="BOOL";
+											value=0;
+										};
+									};
+								};
+								nAttributes=2;
+							};
+						};
+					};
+					id=6502;
+					atlOffset=0.089164734;
+				};
+				class Item2
+				{
+					dataType="Layer";
+					name="FuelStation_2";
+					class Entities
+					{
+						items=17;
+						class Item0
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={10756.897,15.558406,10853.245};
+								angles[]={0,5.4609876,-0};
+							};
+							side="Empty";
+							flags=5;
+							class Attributes
+							{
+							};
+							id=6522;
+							type="Land_FuelStation_Feed_F";
+						};
+						class Item1
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={10753.932,14.616158,10856.368};
+								angles[]={0,2.3045712,-0};
+							};
+							side="Empty";
+							flags=5;
+							class Attributes
+							{
+							};
+							id=6523;
+							type="Land_SPE_House_Small_04";
+						};
+						class Item2
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={10754.758,15.026583,10850.058};
+								angles[]={0,2.3207638,-0};
+							};
+							side="Empty";
+							flags=5;
+							class Attributes
+							{
+							};
+							id=6524;
+							type="Land_SPE_Dugout_Decal_03";
+						};
+						class Item3
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={10761.391,14.678369,10857.021};
+								angles[]={0,5.4738641,-0};
+							};
+							side="Empty";
+							flags=5;
+							class Attributes
+							{
+							};
+							id=6525;
+							type="Land_SPE_Dugout_Decal_03";
+						};
+						class Item4
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={10758.627,14.77834,10854.193};
+								angles[]={0,5.4609876,-0};
+							};
+							side="Empty";
+							flags=5;
+							class Attributes
+							{
+							};
+							id=6526;
+							type="Land_SPE_Dugout_Decal_01";
+						};
+						class Item5
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={10759.557,15.454564,10856.182};
+								angles[]={0,2.2835612,-0};
+							};
+							side="Empty";
+							flags=5;
+							class Attributes
+							{
+							};
+							id=6527;
+							type="Land_FuelStation_Feed_F";
+						};
+						class Item6
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={10754.856,15.16244,10853.547};
+								angles[]={0.076516926,5.5095844,0.016666256};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=6528;
+							type="Land_SPE_Fuel_Barrel_German";
+						};
+						class Item7
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={10755.396,15.134233,10854.243};
+								angles[]={0.026657995,5.526053,0.02666023};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=6529;
+							type="Land_SPE_Fuel_Barrel_German";
+						};
+						class Item8
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={10756.069,15.134779,10854.895};
+								angles[]={0.026657995,5.4720788,0.02666023};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=6530;
+							type="Land_SPE_Fuel_Barrel_German";
+						};
+						class Item9
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={10755.558,15.191947,10853.479};
+								angles[]={0.089757703,5.4612679,0.02666023};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=6531;
+							type="Land_SPE_Fuel_Barrel_German";
+						};
+						class Item10
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={10756.078,15.159277,10853.995};
+								angles[]={0.089757703,5.4612679,0.02666023};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=6532;
+							type="Land_SPE_Fuel_Barrel_German";
+						};
+						class Item11
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={10757.266,15.106181,10856.229};
+								angles[]={0.043306526,5.542716,0.010000871};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=6533;
+							type="Land_SPE_Fuel_Barrel_German";
+						};
+						class Item12
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={10758,15.08248,10856.945};
+								angles[]={0.043306526,5.46064,0.026662467};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=6534;
+							type="Land_SPE_Fuel_Barrel_German";
+						};
+						class Item13
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={10757.162,15.156684,10855.04};
+								angles[]={0.043306526,5.685575,0.010000871};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=6535;
+							type="Land_SPE_Fuel_Barrel_German";
+						};
+						class Item14
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={10757.906,15.174822,10854.793};
+								angles[]={0.043306526,5.4666967,0.010000871};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=6536;
+							type="Land_SPE_Fuel_Barrel_German";
+						};
+						class Item15
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={10758.37,15.135844,10855.942};
+								angles[]={0.043306526,5.3682923,0.026662467};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=6537;
+							type="Land_SPE_Fuel_Barrel_German";
+						};
+						class Item16
+						{
+							dataType="Logic";
+							class PositionInfo
+							{
+								position[]={10756.195,14.698359,10854.882};
+								angles[]={0.026657995,5.4609876,0.02666023};
+							};
+							areaSize[]={10.482788,0,10.424072};
+							flags=1;
+							id=6538;
+							type="ModuleHideTerrainObjects_F";
+							class CustomAttributes
+							{
+								class Attribute0
+								{
+									property="#filter";
+									expression="_this setVariable [""#filter"",_value]";
+									class Value
+									{
+										class data
+										{
+											singleType="SCALAR";
+											value=15;
+										};
+									};
+								};
+								class Attribute1
+								{
+									property="#hideLocally";
+									expression="_this setVariable [""#hideLocally"",_value]";
+									class Value
+									{
+										class data
+										{
+											singleType="BOOL";
+											value=0;
+										};
+									};
+								};
+								nAttributes=2;
+							};
+						};
+					};
+					id=6521;
+					atlOffset=-0.0065355301;
+				};
+				class Item3
+				{
+					dataType="Layer";
+					name="FuelStation_3";
+					class Entities
+					{
+						items=17;
+						class Item0
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={8057.3887,50.056667,10450.146};
+								angles[]={0,6.0403743,-0};
+							};
+							side="Empty";
+							flags=5;
+							class Attributes
+							{
+							};
+							id=6541;
+							type="Land_FuelStation_Feed_F";
+						};
+						class Item1
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={8056.6172,49.349998,10454.383};
+								angles[]={0,2.8839576,-0};
+							};
+							side="Empty";
+							flags=5;
+							class Attributes
+							{
+							};
+							id=6542;
+							type="Land_SPE_House_Small_04";
+						};
+						class Item2
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={8053.8535,49.27343,10448.651};
+								angles[]={0,2.9001503,-0};
+							};
+							side="Empty";
+							flags=5;
+							class Attributes
+							{
+							};
+							id=6543;
+							type="Land_SPE_Dugout_Decal_03";
+						};
+						class Item3
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={8063.2153,49.347828,10450.846};
+								angles[]={0,6.0532508,-0};
+							};
+							side="Empty";
+							flags=5;
+							class Attributes
+							{
+							};
+							id=6544;
+							type="Land_SPE_Dugout_Decal_03";
+						};
+						class Item4
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={8059.3555,49.28508,10449.992};
+								angles[]={0,6.0403743,-0};
+							};
+							side="Empty";
+							flags=5;
+							class Attributes
+							{
+							};
+							id=6545;
+							type="Land_SPE_Dugout_Decal_01";
+						};
+						class Item5
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={8061.2227,50.071613,10451.147};
+								angles[]={0,2.8629477,-0};
+							};
+							side="Empty";
+							flags=5;
+							class Attributes
+							{
+							};
+							id=6546;
+							type="Land_FuelStation_Feed_F";
+						};
+						class Item6
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={8055.8462,49.778851,10451.517};
+								angles[]={6.2598572,6.0403743,0};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=6547;
+							type="Land_SPE_Fuel_Barrel_German";
+						};
+						class Item7
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={8056.6797,49.785549,10451.804};
+								angles[]={6.2598572,6.0403743,0};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=6548;
+							type="Land_SPE_Fuel_Barrel_German";
+						};
+						class Item8
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={8057.5981,49.789654,10451.979};
+								angles[]={6.2598572,6.0403743,0};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=6549;
+							type="Land_SPE_Fuel_Barrel_German";
+						};
+						class Item9
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={8056.3955,49.768528,10451.074};
+								angles[]={6.2598572,6.0403743,0};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=6550;
+							type="Land_SPE_Fuel_Barrel_German";
+						};
+						class Item10
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={8057.1147,49.772015,10451.224};
+								angles[]={6.2598572,6.0403743,0};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=6551;
+							type="Land_SPE_Fuel_Barrel_German";
+						};
+						class Item11
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={8059.3315,49.790131,10452.441};
+								angles[]={-0,6.0403743,0};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=6552;
+							type="Land_SPE_Fuel_Barrel_German";
+						};
+						class Item12
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={8060.3379,49.790131,10452.64};
+								angles[]={-0,6.0403743,0};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=6553;
+							type="Land_SPE_Fuel_Barrel_German";
+						};
+						class Item13
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={8058.5928,49.77195,10451.504};
+								angles[]={6.2465363,6.0403743,0};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=6554;
+							type="Land_SPE_Fuel_Barrel_German";
+						};
+						class Item14
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={8059.0801,49.749783,10450.888};
+								angles[]={6.2598572,6.0403743,6.2698579};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=6555;
+							type="Land_SPE_Fuel_Barrel_German";
+						};
+						class Item15
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={8060.0977,49.775387,10451.598};
+								angles[]={6.2465363,6.0403743,0};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=6556;
+							type="Land_SPE_Fuel_Barrel_German";
+						};
+						class Item16
+						{
+							dataType="Logic";
+							class PositionInfo
+							{
+								position[]={8058.4722,49.340733,10451.747};
+								angles[]={6.2465363,6.0403752,0};
+							};
+							areaSize[]={13.786,0,10.759};
+							flags=1;
+							id=6557;
+							type="ModuleHideTerrainObjects_F";
+							class CustomAttributes
+							{
+								class Attribute0
+								{
+									property="#filter";
+									expression="_this setVariable [""#filter"",_value]";
+									class Value
+									{
+										class data
+										{
+											singleType="SCALAR";
+											value=3;
+										};
+									};
+								};
+								class Attribute1
+								{
+									property="#hideLocally";
+									expression="_this setVariable [""#hideLocally"",_value]";
+									class Value
+									{
+										class data
+										{
+											singleType="BOOL";
+											value=0;
+										};
+									};
+								};
+								nAttributes=2;
+							};
+						};
+					};
+					id=6540;
+					atlOffset=-0.00078964233;
+				};
+				class Item4
+				{
+					dataType="Layer";
+					name="FuelStation_4";
+					class Entities
+					{
+						items=17;
+						class Item0
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={2635.1108,55.919994,1136.6973};
+								angles[]={0,3.1448491,-0};
+							};
+							side="Empty";
+							flags=5;
+							class Attributes
+							{
+							};
+							id=6560;
+							type="Land_FuelStation_Feed_F";
+						};
+						class Item1
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={2634.8276,55.358021,1132.3998};
+								angles[]={0,6.2716174,-0};
+							};
+							side="Empty";
+							flags=5;
+							class Attributes
+							{
+							};
+							id=6561;
+							type="Land_SPE_House_Small_04";
+						};
+						class Item2
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={2638.9043,55.456131,1137.286};
+								angles[]={0,0.0046248296,-0};
+							};
+							side="Empty";
+							flags=5;
+							class Attributes
+							{
+							};
+							id=6562;
+							type="Land_SPE_Dugout_Decal_03";
+						};
+						class Item3
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={2629.2898,55.072899,1137.4379};
+								angles[]={0,3.1577256,-0};
+							};
+							side="Empty";
+							flags=5;
+							class Attributes
+							{
+							};
+							id=6563;
+							type="Land_SPE_Dugout_Decal_03";
+						};
+						class Item4
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={2633.2415,55.122799,1137.325};
+								angles[]={0,3.1448491,-0};
+							};
+							side="Empty";
+							flags=5;
+							class Attributes
+							{
+							};
+							id=6564;
+							type="Land_SPE_Dugout_Decal_01";
+						};
+						class Item5
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={2631.1494,55.585705,1136.6598};
+								angles[]={0,6.2506075,-0};
+							};
+							side="Empty";
+							flags=5;
+							class Attributes
+							{
+							};
+							id=6565;
+							type="Land_FuelStation_Feed_F";
+						};
+						class Item6
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={2636.2739,55.667053,1134.9923};
+								angles[]={0.033319358,3.1456733,0};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=6566;
+							type="Land_SPE_Fuel_Barrel_German";
+						};
+						class Item7
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={2635.3955,55.64436,1134.917};
+								angles[]={6.2798557,3.1442833,0.036649179};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=6567;
+							type="Land_SPE_Fuel_Barrel_German";
+						};
+						class Item8
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={2634.4614,55.610283,1134.9698};
+								angles[]={6.2798557,3.1445825,0.036649179};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=6568;
+							type="Land_SPE_Fuel_Barrel_German";
+						};
+						class Item9
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={2635.8489,55.648308,1135.5547};
+								angles[]={0.033319358,3.1449885,0};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=6569;
+							type="Land_SPE_Fuel_Barrel_German";
+						};
+						class Item10
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={2635.115,55.636307,1135.5858};
+								angles[]={6.2798557,3.1466024,0.036649179};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=6570;
+							type="Land_SPE_Fuel_Barrel_German";
+						};
+						class Item11
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={2632.6677,55.442291,1134.944};
+								angles[]={6.2798381,3.1464221,0.11285178};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=6571;
+							type="Land_SPE_Fuel_Barrel_German";
+						};
+						class Item12
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={2631.6438,55.326424,1134.9976};
+								angles[]={6.2798381,3.1479912,0.11285178};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=6572;
+							type="Land_SPE_Fuel_Barrel_German";
+						};
+						class Item13
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={2633.6123,55.551781,1135.6738};
+								angles[]={6.2798381,3.1466024,0.11285178};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=6573;
+							type="Land_SPE_Fuel_Barrel_German";
+						};
+						class Item14
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={2633.2903,55.517662,1136.3892};
+								angles[]={6.2798381,3.1483352,0.11285178};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=6574;
+							type="Land_SPE_Fuel_Barrel_German";
+						};
+						class Item15
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={2632.1301,55.384712,1135.9491};
+								angles[]={6.2798381,3.154624,0.11285178};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=6575;
+							type="Land_SPE_Fuel_Barrel_German";
+						};
+						class Item16
+						{
+							dataType="Logic";
+							class PositionInfo
+							{
+								position[]={2632.9453,55.198673,1139.3785};
+								angles[]={-0,3.1469204,6.2465363};
+							};
+							areaSize[]={16.071432,0,11.695134};
+							flags=1;
+							id=6576;
+							type="ModuleHideTerrainObjects_F";
+							class CustomAttributes
+							{
+								class Attribute0
+								{
+									property="#filter";
+									expression="_this setVariable [""#filter"",_value]";
+									class Value
+									{
+										class data
+										{
+											singleType="SCALAR";
+											value=15;
+										};
+									};
+								};
+								class Attribute1
+								{
+									property="#hideLocally";
+									expression="_this setVariable [""#hideLocally"",_value]";
+									class Value
+									{
+										class data
+										{
+											singleType="BOOL";
+											value=0;
+										};
+									};
+								};
+								nAttributes=2;
+							};
+						};
+					};
+					id=6559;
+					atlOffset=-0.02155304;
+				};
+				class Item5
+				{
+					dataType="Layer";
+					name="FuelStation_5";
+					class Entities
+					{
+						items=18;
+						class Item0
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={8788.9092,82.528847,2434.8723};
+							};
+							side="Empty";
+							flags=5;
+							class Attributes
+							{
+							};
+							id=6579;
+							type="Land_FuelStation_Feed_F";
+						};
+						class Item1
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={8789.1787,81.728699,2439.1707};
+								angles[]={0,3.1267688,-0};
+							};
+							side="Empty";
+							flags=5;
+							class Attributes
+							{
+							};
+							id=6580;
+							type="Land_SPE_House_Small_04";
+						};
+						class Item2
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={8785.1182,81.634567,2434.2712};
+								angles[]={0,3.1429615,-0};
+							};
+							side="Empty";
+							flags=5;
+							class Attributes
+							{
+							};
+							id=6581;
+							type="Land_SPE_Dugout_Decal_03";
+						};
+						class Item3
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={8794.7324,81.783493,2434.1506};
+								angles[]={0,0.012876272,-0};
+							};
+							side="Empty";
+							flags=5;
+							class Attributes
+							{
+							};
+							id=6582;
+							type="Land_SPE_Dugout_Decal_03";
+						};
+						class Item4
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={8790.7813,81.867172,2434.2507};
+							};
+							side="Empty";
+							flags=5;
+							class Attributes
+							{
+							};
+							id=6583;
+							type="Land_SPE_Dugout_Decal_01";
+						};
+						class Item5
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={8792.8711,82.564812,2434.9226};
+								angles[]={0,3.1057589,-0};
+							};
+							side="Empty";
+							flags=5;
+							class Attributes
+							{
+							};
+							id=6584;
+							type="Land_FuelStation_Feed_F";
+						};
+						class Item6
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={8787.7412,82.103134,2436.5735};
+								angles[]={0.0066682254,0,0.076515369};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=6585;
+							type="Land_SPE_Fuel_Barrel_German";
+						};
+						class Item7
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={8788.6191,82.169937,2436.6516};
+								angles[]={0.0066682254,0,0.076515369};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=6586;
+							type="Land_SPE_Fuel_Barrel_German";
+						};
+						class Item8
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={8789.5527,82.239273,2436.6018};
+								angles[]={0.023328418,0,0.059928458};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=6587;
+							type="Land_SPE_Fuel_Barrel_German";
+						};
+						class Item9
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={8788.168,82.13961,2436.0125};
+								angles[]={0.0066682254,0,0.076515369};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=6588;
+							type="Land_SPE_Fuel_Barrel_German";
+						};
+						class Item10
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={8788.9023,82.196342,2435.9836};
+								angles[]={0.019999012,0,0.076516144};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=6589;
+							type="Land_SPE_Fuel_Barrel_German";
+						};
+						class Item11
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={8791.3467,82.238403,2436.6335};
+								angles[]={0.023330973,0,6.2631893};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=6590;
+							type="Land_SPE_Fuel_Barrel_German";
+						};
+						class Item12
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={8792.3711,82.219086,2436.5833};
+								angles[]={0.023330973,0,6.2631893};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=6591;
+							type="Land_SPE_Fuel_Barrel_German";
+						};
+						class Item13
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={8790.4043,82.275017,2435.9006};
+								angles[]={0.029993678,0,6.2631865};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=6592;
+							type="Land_SPE_Fuel_Barrel_German";
+						};
+						class Item14
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={8790.7285,82.289116,2435.1863};
+								angles[]={0.019999012,0,6.2731848};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=6593;
+							type="Land_SPE_Fuel_Barrel_German";
+						};
+						class Item15
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={8791.8877,82.253456,2435.6301};
+								angles[]={0.029993678,0,6.2631865};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=6594;
+							type="Land_SPE_Fuel_Barrel_German";
+						};
+						class Item16
+						{
+							dataType="Logic";
+							class PositionInfo
+							{
+								position[]={8789.6309,81.80616,2436.5007};
+								angles[]={0.023328418,0,0.059928458};
+							};
+							areaSize[]={10.482788,0,10.424072};
+							flags=1;
+							id=6595;
+							type="ModuleHideTerrainObjects_F";
+							class CustomAttributes
+							{
+								class Attribute0
+								{
+									property="#filter";
+									expression="_this setVariable [""#filter"",_value]";
+									class Value
+									{
+										class data
+										{
+											singleType="SCALAR";
+											value=15;
+										};
+									};
+								};
+								class Attribute1
+								{
+									property="#hideLocally";
+									expression="_this setVariable [""#hideLocally"",_value]";
+									class Value
+									{
+										class data
+										{
+											singleType="BOOL";
+											value=0;
+										};
+									};
+								};
+								nAttributes=2;
+							};
+						};
+						class Item17
+						{
+							dataType="Logic";
+							class PositionInfo
+							{
+								position[]={8793.9297,81.892639,2430.938};
+								angles[]={0.019999012,0,6.2631865};
+							};
+							areaSize[]={18.691,0,4.5749998};
+							areaIsRectangle=1;
+							flags=1;
+							id=6597;
+							type="ModuleHideTerrainObjects_F";
+							class CustomAttributes
+							{
+								class Attribute0
+								{
+									property="#filter";
+									expression="_this setVariable [""#filter"",_value]";
+									class Value
+									{
+										class data
+										{
+											singleType="SCALAR";
+											value=11;
+										};
+									};
+								};
+								class Attribute1
+								{
+									property="#hideLocally";
+									expression="_this setVariable [""#hideLocally"",_value]";
+									class Value
+									{
+										class data
+										{
+											singleType="BOOL";
+											value=0;
+										};
+									};
+								};
+								nAttributes=2;
+							};
+						};
+					};
+					id=6578;
+					atlOffset=-0.014877319;
+				};
+				class Item6
+				{
+					dataType="Layer";
+					name="FuelStation_6";
+					class Entities
+					{
+						items=17;
+						class Item0
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={4401.5356,63.519905,5960.9619};
+								angles[]={0,3.3533006,-0};
+							};
+							side="Empty";
+							flags=5;
+							class Attributes
+							{
+							};
+							id=6599;
+							type="Land_FuelStation_Feed_F";
+						};
+						class Item1
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={4400.3687,62.77,5956.8164};
+								angles[]={0,0.1968839,-0};
+							};
+							side="Empty";
+							flags=5;
+							class Attributes
+							{
+							};
+							id=6600;
+							type="Land_SPE_House_Small_04";
+						};
+						class Item2
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={4405.3682,62.77,5960.7529};
+								angles[]={0,0.21307659,-0};
+							};
+							side="Empty";
+							flags=5;
+							class Attributes
+							{
+							};
+							id=6601;
+							type="Land_SPE_Dugout_Decal_03";
+						};
+						class Item3
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={4395.9937,62.77,5962.8911};
+								angles[]={0,3.3661768,-0};
+							};
+							side="Empty";
+							flags=5;
+							class Attributes
+							{
+							};
+							id=6602;
+							type="Land_SPE_Dugout_Decal_03";
+						};
+						class Item4
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={4399.8359,62.77,5961.9629};
+								angles[]={0,3.3533006,-0};
+							};
+							side="Empty";
+							flags=5;
+							class Attributes
+							{
+							};
+							id=6603;
+							type="Land_SPE_Dugout_Decal_01";
+						};
+						class Item5
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={4397.6514,63.519905,5961.7451};
+								angles[]={0,0.17587399,-0};
+							};
+							side="Empty";
+							flags=5;
+							class Attributes
+							{
+							};
+							id=6604;
+							type="Land_FuelStation_Feed_F";
+						};
+						class Item6
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={4402.3198,63.210133,5959.0532};
+								angles[]={-0,3.3533006,0};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=6605;
+							type="Land_SPE_Fuel_Barrel_German";
+						};
+						class Item7
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={4401.4453,63.210133,5959.1616};
+								angles[]={-0,3.3533006,0};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=6606;
+							type="Land_SPE_Fuel_Barrel_German";
+						};
+						class Item8
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={4400.5425,63.210133,5959.4063};
+								angles[]={-0,3.3533006,0};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=6607;
+							type="Land_SPE_Fuel_Barrel_German";
+						};
+						class Item9
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={4402.0205,63.210133,5959.6914};
+								angles[]={-0,3.3533006,0};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=6608;
+							type="Land_SPE_Fuel_Barrel_German";
+						};
+						class Item10
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={4401.3091,63.210133,5959.874};
+								angles[]={-0,3.3533006,0};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=6609;
+							type="Land_SPE_Fuel_Barrel_German";
+						};
+						class Item11
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={4398.7822,63.210133,5959.752};
+								angles[]={-0,3.3533006,0};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=6610;
+							type="Land_SPE_Fuel_Barrel_German";
+						};
+						class Item12
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={4397.7915,63.210133,5960.0166};
+								angles[]={-0,3.3533006,0};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=6611;
+							type="Land_SPE_Fuel_Barrel_German";
+						};
+						class Item13
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={4399.8579,63.210133,5960.2705};
+								angles[]={-0,3.3533006,0};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=6612;
+							type="Land_SPE_Fuel_Barrel_German";
+						};
+						class Item14
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={4399.6904,63.210133,5961.0371};
+								angles[]={-0,3.3533006,0};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=6613;
+							type="Land_SPE_Fuel_Barrel_German";
+						};
+						class Item15
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={4398.4644,63.210133,5960.8467};
+								angles[]={-0,3.3533006,0};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=6614;
+							type="Land_SPE_Fuel_Barrel_German";
+						};
+						class Item16
+						{
+							dataType="Logic";
+							class PositionInfo
+							{
+								position[]={4400.8125,62.77,5961.0332};
+								angles[]={-0,3.3533006,0};
+							};
+							areaSize[]={10.482788,0,8.8776608};
+							flags=1;
+							id=6615;
+							type="ModuleHideTerrainObjects_F";
+							class CustomAttributes
+							{
+								class Attribute0
+								{
+									property="#filter";
+									expression="_this setVariable [""#filter"",_value]";
+									class Value
+									{
+										class data
+										{
+											singleType="SCALAR";
+											value=15;
+										};
+									};
+								};
+								class Attribute1
+								{
+									property="#hideLocally";
+									expression="_this setVariable [""#hideLocally"",_value]";
+									class Value
+									{
+										class data
+										{
+											singleType="BOOL";
+											value=0;
+										};
+									};
+								};
+								nAttributes=2;
+							};
+						};
+					};
+					id=6598;
+				};
+				class Item7
+				{
+					dataType="Layer";
+					name="FuelStation_7";
+					class Entities
+					{
+						items=17;
+						class Item0
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={5852.8916,41.290627,10048.481};
+								angles[]={0,3.5682182,-0};
+							};
+							side="Empty";
+							flags=5;
+							class Attributes
+							{
+							};
+							id=6637;
+							type="Land_FuelStation_Feed_F";
+						};
+						class Item1
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={5850.8682,40.412239,10044.681};
+								angles[]={0,0.41180158,-0};
+							};
+							side="Empty";
+							flags=5;
+							class Attributes
+							{
+							};
+							id=6638;
+							type="Land_SPE_House_Small_04";
+						};
+						class Item2
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={5856.5918,40.59058,10047.459};
+								angles[]={0,0.42799425,-0};
+							};
+							side="Empty";
+							flags=5;
+							class Attributes
+							{
+							};
+							id=6639;
+							type="Land_SPE_Dugout_Decal_03";
+						};
+						class Item3
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={5847.8892,40.392925,10051.548};
+								angles[]={0,3.5810945,-0};
+							};
+							side="Empty";
+							flags=5;
+							class Attributes
+							{
+							};
+							id=6640;
+							type="Land_SPE_Dugout_Decal_03";
+						};
+						class Item4
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={5851.4458,40.510059,10049.822};
+								angles[]={0,3.5682182,-0};
+							};
+							side="Empty";
+							flags=5;
+							class Attributes
+							{
+							};
+							id=6641;
+							type="Land_SPE_Dugout_Decal_01";
+						};
+						class Item5
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={5849.2651,41.183472,10050.075};
+								angles[]={0,0.39079168,-0};
+							};
+							side="Empty";
+							flags=5;
+							class Attributes
+							{
+							};
+							id=6642;
+							type="Land_FuelStation_Feed_F";
+						};
+						class Item6
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={5853.252,40.953316,10046.449};
+								angles[]={6.2631893,3.56847,0.016662678};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=6643;
+							type="Land_SPE_Fuel_Barrel_German";
+						};
+						class Item7
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={5852.4199,40.935623,10046.741};
+								angles[]={6.2631865,3.5685236,0.033322938};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=6644;
+							type="Land_SPE_Fuel_Barrel_German";
+						};
+						class Item8
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={5851.5903,40.91547,10047.174};
+								angles[]={6.2698536,3.5685236,0.033321146};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=6645;
+							type="Land_SPE_Fuel_Barrel_German";
+						};
+						class Item9
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={5853.0957,40.964012,10047.137};
+								angles[]={6.2665229,3.56847,0.016662678};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=6646;
+							type="Land_SPE_Fuel_Barrel_German";
+						};
+						class Item10
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={5852.439,40.947659,10047.467};
+								angles[]={6.2698536,3.5685236,0.033321146};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=6647;
+							type="Land_SPE_Fuel_Barrel_German";
+						};
+						class Item11
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={5849.9443,40.869926,10047.888};
+								angles[]={6.2698536,3.5683115,0.036650803};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=6648;
+							type="Land_SPE_Fuel_Barrel_German";
+						};
+						class Item12
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={5849.0327,40.842754,10048.356};
+								angles[]={6.2698536,3.5683115,0.036650803};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=6649;
+							type="Land_SPE_Fuel_Barrel_German";
+						};
+						class Item13
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={5851.105,40.912498,10048.164};
+								angles[]={6.2698536,3.5685236,0.033321146};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=6650;
+							type="Land_SPE_Fuel_Barrel_German";
+						};
+						class Item14
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={5851.106,40.923176,10048.949};
+								angles[]={6.2665191,3.5682657,0.036650803};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=6651;
+							type="Land_SPE_Fuel_Barrel_German";
+						};
+						class Item15
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={5849.8672,40.882263,10049.024};
+								angles[]={6.2698536,3.5683115,0.036650803};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=6652;
+							type="Land_SPE_Fuel_Barrel_German";
+						};
+						class Item16
+						{
+							dataType="Logic";
+							class PositionInfo
+							{
+								position[]={5851.0806,40.481804,10048.931};
+								angles[]={6.2665191,3.5682182,0.036650803};
+							};
+							areaSize[]={11.596581,0,9.1368999};
+							flags=1;
+							id=6653;
+							type="ModuleHideTerrainObjects_F";
+							class CustomAttributes
+							{
+								class Attribute0
+								{
+									property="#filter";
+									expression="_this setVariable [""#filter"",_value]";
+									class Value
+									{
+										class data
+										{
+											singleType="SCALAR";
+											value=15;
+										};
+									};
+								};
+								class Attribute1
+								{
+									property="#hideLocally";
+									expression="_this setVariable [""#hideLocally"",_value]";
+									class Value
+									{
+										class data
+										{
+											singleType="BOOL";
+											value=0;
+										};
+									};
+								};
+								nAttributes=2;
+							};
+						};
+					};
+					id=6636;
+					atlOffset=-0.00019073486;
+				};
+				class Item8
+				{
+					dataType="Layer";
+					name="FuelStation_8";
+					class Entities
+					{
+						items=17;
+						class Item0
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={1855.8713,78.46701,9324.501};
+								angles[]={0,3.1657341,-0};
+							};
+							side="Empty";
+							flags=5;
+							class Attributes
+							{
+							};
+							id=6656;
+							type="Land_FuelStation_Feed_F";
+						};
+						class Item1
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={1855.4984,77.636093,9320.2109};
+								angles[]={0,0.0093173962,-0};
+							};
+							side="Empty";
+							flags=5;
+							class Attributes
+							{
+							};
+							id=6657;
+							type="Land_SPE_House_Small_04";
+						};
+						class Item2
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={1859.676,77.713463,9325.0098};
+								angles[]={0,0.025510073,-0};
+							};
+							side="Empty";
+							flags=5;
+							class Attributes
+							{
+							};
+							id=6658;
+							type="Land_SPE_Dugout_Decal_03";
+						};
+						class Item3
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={1850.067,77.734543,9325.3623};
+								angles[]={0,3.1786103,-0};
+							};
+							side="Empty";
+							flags=5;
+							class Attributes
+							{
+							};
+							id=6659;
+							type="Land_SPE_Dugout_Decal_03";
+						};
+						class Item4
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={1854.0154,77.727737,9325.168};
+								angles[]={0,3.1657341,-0};
+							};
+							side="Empty";
+							flags=5;
+							class Attributes
+							{
+							};
+							id=6660;
+							type="Land_SPE_Dugout_Decal_01";
+						};
+						class Item5
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={1851.9099,78.478699,9324.5469};
+								angles[]={0,6.271493,-0};
+							};
+							side="Empty";
+							flags=5;
+							class Attributes
+							{
+							};
+							id=6661;
+							type="Land_FuelStation_Feed_F";
+						};
+						class Item6
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={1856.9984,78.125572,9322.7715};
+								angles[]={6.2631893,3.1657341,6.2798557};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=6662;
+							type="Land_SPE_Fuel_Barrel_German";
+						};
+						class Item7
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={1856.1187,78.127373,9322.7148};
+								angles[]={6.2631893,3.1657341,6.2798557};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=6663;
+							type="Land_SPE_Fuel_Barrel_German";
+						};
+						class Item8
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={1855.186,78.132095,9322.7871};
+								angles[]={6.2698536,3.1657341,6.2731905};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=6664;
+							type="Land_SPE_Fuel_Barrel_German";
+						};
+						class Item9
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={1856.5853,78.13839,9323.3438};
+								angles[]={6.2631893,3.1657341,6.2798557};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=6665;
+							type="Land_SPE_Fuel_Barrel_German";
+						};
+						class Item10
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={1855.8521,78.141762,9323.3896};
+								angles[]={6.2631893,3.1657341,6.2798557};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=6666;
+							type="Land_SPE_Fuel_Barrel_German";
+						};
+						class Item11
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={1853.3921,78.146149,9322.7988};
+								angles[]={6.2698536,3.1657341,6.2798557};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=6667;
+							type="Land_SPE_Fuel_Barrel_German";
+						};
+						class Item12
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={1852.3694,78.150566,9322.874};
+								angles[]={6.2698536,3.1657341,6.2798557};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=6668;
+							type="Land_SPE_Fuel_Barrel_German";
+						};
+						class Item13
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={1854.3518,78.15007,9323.5088};
+								angles[]={6.2698536,3.1657341,6.2731905};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=6669;
+							type="Land_SPE_Fuel_Barrel_German";
+						};
+						class Item14
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={1854.0448,78.161522,9324.2314};
+								angles[]={6.276526,3.1657341,6.2798557};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=6670;
+							type="Land_SPE_Fuel_Barrel_German";
+						};
+						class Item15
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={1852.8756,78.161415,9323.8154};
+								angles[]={6.2698536,3.1657341,6.2798557};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=6671;
+							type="Land_SPE_Fuel_Barrel_German";
+						};
+						class Item16
+						{
+							dataType="Logic";
+							class PositionInfo
+							{
+								position[]={1855.155,77.694115,9324.709};
+								angles[]={6.2631893,3.1657341,6.2798557};
+							};
+							areaSize[]={10.482788,0,10.532462};
+							flags=1;
+							id=6672;
+							type="ModuleHideTerrainObjects_F";
+							atlOffset=-0.026756287;
+							class CustomAttributes
+							{
+								class Attribute0
+								{
+									property="#filter";
+									expression="_this setVariable [""#filter"",_value]";
+									class Value
+									{
+										class data
+										{
+											singleType="SCALAR";
+											value=15;
+										};
+									};
+								};
+								class Attribute1
+								{
+									property="#hideLocally";
+									expression="_this setVariable [""#hideLocally"",_value]";
+									class Value
+									{
+										class data
+										{
+											singleType="BOOL";
+											value=0;
+										};
+									};
+								};
+								nAttributes=2;
+							};
+						};
+					};
+					id=6655;
+					atlOffset=-0.014564514;
+				};
+				class Item9
+				{
+					dataType="Layer";
+					name="FuelStation_9";
+					class Entities
+					{
+						items=17;
+						class Item0
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={2521.7368,49.070919,4009.021};
+								angles[]={0,2.3062201,-0};
+							};
+							side="Empty";
+							flags=5;
+							class Attributes
+							{
+							};
+							id=6675;
+							type="Land_FuelStation_Feed_F";
+						};
+						class Item1
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={2524.7434,48.265072,4005.9377};
+								angles[]={0,5.4329891,-0};
+							};
+							side="Empty";
+							flags=5;
+							class Attributes
+							{
+							};
+							id=6676;
+							type="Land_SPE_House_Small_04";
+						};
+						class Item2
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={2523.8345,48.251472,4012.2358};
+								angles[]={0,5.4491816,-0};
+							};
+							side="Empty";
+							flags=5;
+							class Attributes
+							{
+							};
+							id=6677;
+							type="Land_SPE_Dugout_Decal_03";
+						};
+						class Item3
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={2517.2947,48.264103,4005.187};
+								angles[]={0,2.3190963,-0};
+							};
+							side="Empty";
+							flags=5;
+							class Attributes
+							{
+							};
+							id=6678;
+							type="Land_SPE_Dugout_Decal_03";
+						};
+						class Item4
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={2520.0203,48.320267,4008.0503};
+								angles[]={0,2.3062201,-0};
+							};
+							side="Empty";
+							flags=5;
+							class Attributes
+							{
+							};
+							id=6679;
+							type="Land_SPE_Dugout_Decal_01";
+						};
+						class Item5
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={2519.1162,49.034458,4006.0498};
+								angles[]={0,5.4119792,-0};
+							};
+							side="Empty";
+							flags=5;
+							class Attributes
+							{
+							};
+							id=6680;
+							type="Land_FuelStation_Feed_F";
+						};
+						class Item6
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={2523.7822,48.721573,4008.7463};
+								angles[]={0.0033296358,2.3062406,6.2498641};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=6681;
+							type="Land_SPE_Fuel_Barrel_German";
+						};
+						class Item7
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={2523.251,48.741623,4008.0427};
+								angles[]={0.0033296358,2.3062406,6.2498641};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=6682;
+							type="Land_SPE_Fuel_Barrel_German";
+						};
+						class Item8
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={2522.5874,48.743282,4007.3833};
+								angles[]={6.2698536,2.3062406,6.2798557};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=6683;
+							type="Land_SPE_Fuel_Barrel_German";
+						};
+						class Item9
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={2523.0798,48.744781,4008.8062};
+								angles[]={0.0033296358,2.3062406,6.2498641};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=6684;
+							type="Land_SPE_Fuel_Barrel_German";
+						};
+						class Item10
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={2522.5659,48.753456,4008.281};
+								angles[]={6.2765174,2.3062406,6.2798557};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=6685;
+							type="Land_SPE_Fuel_Barrel_German";
+						};
+						class Item11
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={2521.4075,48.727333,4006.032};
+								angles[]={6.2665229,2.3062031,0};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=6686;
+							type="Land_SPE_Fuel_Barrel_German";
+						};
+						class Item12
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={2520.6831,48.715237,4005.3062};
+								angles[]={6.2665229,2.3062031,0};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=6687;
+							type="Land_SPE_Fuel_Barrel_German";
+						};
+						class Item13
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={2521.4963,48.744778,4007.2224};
+								angles[]={6.2698536,2.3062162,6.2798557};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=6688;
+							type="Land_SPE_Fuel_Barrel_German";
+						};
+						class Item14
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={2520.7488,48.750454,4007.4612};
+								angles[]={6.2698536,2.3062162,6.2798557};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=6689;
+							type="Land_SPE_Fuel_Barrel_German";
+						};
+						class Item15
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={2520.3005,48.731873,4006.3042};
+								angles[]={6.2665229,2.3062162,0};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=6690;
+							type="Land_SPE_Fuel_Barrel_German";
+						};
+						class Item16
+						{
+							dataType="Logic";
+							class PositionInfo
+							{
+								position[]={2521.48,48.303719,4008.281};
+								angles[]={6.2698536,2.3062201,6.2798557};
+							};
+							areaSize[]={10.482788,0,9.1018333};
+							flags=1;
+							id=6691;
+							type="ModuleHideTerrainObjects_F";
+							atlOffset=-0.013225555;
+							class CustomAttributes
+							{
+								class Attribute0
+								{
+									property="#filter";
+									expression="_this setVariable [""#filter"",_value]";
+									class Value
+									{
+										class data
+										{
+											singleType="SCALAR";
+											value=15;
+										};
+									};
+								};
+								class Attribute1
+								{
+									property="#hideLocally";
+									expression="_this setVariable [""#hideLocally"",_value]";
+									class Value
+									{
+										class data
+										{
+											singleType="BOOL";
+											value=0;
+										};
+									};
+								};
+								nAttributes=2;
+							};
+						};
+					};
+					id=6674;
+					atlOffset=-0.009059906;
+				};
+				class Item10
+				{
+					dataType="Layer";
+					name="FuelStation_10";
+					class Entities
+					{
+						items=17;
+						class Item0
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={5308.4912,63.909962,4247.2695};
+								angles[]={0,6.0683103,-0};
+							};
+							side="Empty";
+							flags=5;
+							class Attributes
+							{
+							};
+							id=6713;
+							type="Land_FuelStation_Feed_F";
+						};
+						class Item1
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={5307.8379,63.175133,4251.5264};
+								angles[]={0,2.9118936,-0};
+							};
+							side="Empty";
+							flags=5;
+							class Attributes
+							{
+							};
+							id=6714;
+							type="Land_SPE_House_Small_04";
+						};
+						class Item2
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={5304.9155,63.179863,4245.874};
+								angles[]={0,2.9280863,-0};
+							};
+							side="Empty";
+							flags=5;
+							class Attributes
+							{
+							};
+							id=6715;
+							type="Land_SPE_Dugout_Decal_03";
+						};
+						class Item3
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={5314.335,63.11684,4247.8062};
+								angles[]={0,6.0811863,-0};
+							};
+							side="Empty";
+							flags=5;
+							class Attributes
+							{
+							};
+							id=6716;
+							type="Land_SPE_Dugout_Decal_03";
+						};
+						class Item4
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={5310.4526,63.148491,4247.0615};
+								angles[]={0,6.0683103,-0};
+							};
+							side="Empty";
+							flags=5;
+							class Attributes
+							{
+							};
+							id=6717;
+							type="Land_SPE_Dugout_Decal_01";
+						};
+						class Item5
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={5312.3511,63.876392,4248.1631};
+								angles[]={0,2.8908837,-0};
+							};
+							side="Empty";
+							flags=5;
+							class Attributes
+							{
+							};
+							id=6718;
+							type="Land_FuelStation_Feed_F";
+						};
+						class Item6
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={5306.9873,63.612576,4248.6826};
+								angles[]={6.2798557,6.0683098,6.2698536};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=6719;
+							type="Land_SPE_Fuel_Barrel_German";
+						};
+						class Item7
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={5307.8281,63.607765,4248.9458};
+								angles[]={6.2798557,6.0683098,6.276526};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=6720;
+							type="Land_SPE_Fuel_Barrel_German";
+						};
+						class Item8
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={5308.7515,63.602112,4249.0967};
+								angles[]={6.2798557,6.0683112,6.276526};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=6721;
+							type="Land_SPE_Fuel_Barrel_German";
+						};
+						class Item9
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={5307.5239,63.607388,4248.2251};
+								angles[]={6.2798557,6.0683093,6.276526};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=6722;
+							type="Land_SPE_Fuel_Barrel_German";
+						};
+						class Item10
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={5308.2471,63.602997,4248.3535};
+								angles[]={6.2798557,6.0683103,6.276526};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=6723;
+							type="Land_SPE_Fuel_Barrel_German";
+						};
+						class Item11
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={5310.4971,63.585159,4249.5098};
+								angles[]={-0,6.0683112,6.2731905};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=6724;
+							type="Land_SPE_Fuel_Barrel_German";
+						};
+						class Item12
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={5311.5088,63.573792,4249.6792};
+								angles[]={0.0066592805,6.0683112,6.2665229};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=6725;
+							type="Land_SPE_Fuel_Barrel_German";
+						};
+						class Item13
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={5309.7324,63.592808,4248.5928};
+								angles[]={-0,6.0683103,6.2731905};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=6726;
+							type="Land_SPE_Fuel_Barrel_German";
+						};
+						class Item14
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={5310.2021,63.588348,4247.9644};
+								angles[]={0.0066682254,6.0683103,6.2731848};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=6727;
+							type="Land_SPE_Fuel_Barrel_German";
+						};
+						class Item15
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={5311.2397,63.577732,4248.645};
+								angles[]={-0,6.0683103,6.2731905};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=6728;
+							type="Land_SPE_Fuel_Barrel_German";
+						};
+						class Item16
+						{
+							dataType="Logic";
+							class PositionInfo
+							{
+								position[]={5310.2925,63.155373,4243.3882};
+								angles[]={0.003311686,6.0683179,0};
+							};
+							areaSize[]={10.272813,0,12.21223};
+							areaIsRectangle=1;
+							flags=1;
+							id=6729;
+							type="ModuleHideTerrainObjects_F";
+							class CustomAttributes
+							{
+								class Attribute0
+								{
+									property="#filter";
+									expression="_this setVariable [""#filter"",_value]";
+									class Value
+									{
+										class data
+										{
+											singleType="SCALAR";
+											value=15;
+										};
+									};
+								};
+								class Attribute1
+								{
+									property="#hideLocally";
+									expression="_this setVariable [""#hideLocally"",_value]";
+									class Value
+									{
+										class data
+										{
+											singleType="BOOL";
+											value=0;
+										};
+									};
+								};
+								nAttributes=2;
+							};
+						};
+					};
+					id=6712;
+					atlOffset=0.00079345703;
+				};
+				class Item11
+				{
+					dataType="Layer";
+					name="FuelStation_11";
+					class Entities
+					{
+						items=17;
+						class Item0
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={10301.792,42.696732,4751.0801};
+								angles[]={0,3.9551072,-0};
+							};
+							side="Empty";
+							flags=5;
+							class Attributes
+							{
+							};
+							id=6732;
+							type="Land_FuelStation_Feed_F";
+						};
+						class Item1
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={10298.483,41.943768,4748.3232};
+								angles[]={0,0.79869056,-0};
+							};
+							side="Empty";
+							flags=5;
+							class Attributes
+							{
+							};
+							id=6733;
+							type="Land_SPE_House_Small_04";
+						};
+						class Item2
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={10304.833,41.967701,4748.7383};
+								angles[]={0,0.81488317,-0};
+							};
+							side="Empty";
+							flags=5;
+							class Attributes
+							{
+							};
+							id=6734;
+							type="Land_SPE_Dugout_Decal_03";
+						};
+						class Item3
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={10298.315,41.985806,4755.8086};
+								angles[]={0,3.9679835,-0};
+							};
+							side="Empty";
+							flags=5;
+							class Attributes
+							{
+							};
+							id=6735;
+							type="Land_SPE_Dugout_Decal_03";
+						};
+						class Item4
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={10300.958,41.952148,4752.8677};
+								angles[]={0,3.9551072,-0};
+							};
+							side="Empty";
+							flags=5;
+							class Attributes
+							{
+							};
+							id=6736;
+							type="Land_SPE_Dugout_Decal_01";
+						};
+						class Item5
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={10299.034,42.71904,4753.9248};
+								angles[]={0,0.77768058,-0};
+							};
+							side="Empty";
+							flags=5;
+							class Attributes
+							{
+							};
+							id=6737;
+							type="Land_FuelStation_Feed_F";
+						};
+						class Item6
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={10301.358,42.397991,4749.0625};
+								angles[]={-0,3.9551072,0.003311686};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=6738;
+							type="Land_SPE_Fuel_Barrel_German";
+						};
+						class Item7
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={10300.698,42.395794,4749.647};
+								angles[]={-0,3.9550872,0.003311686};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=6739;
+							type="Land_SPE_Fuel_Barrel_German";
+						};
+						class Item8
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={10300.093,42.393776,4750.3604};
+								angles[]={-0,3.9551039,0.003311686};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=6740;
+							type="Land_SPE_Fuel_Barrel_German";
+						};
+						class Item9
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={10301.473,42.396835,4749.7583};
+								angles[]={0.0066682254,3.9551072,6.2798557};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=6741;
+							type="Land_SPE_Fuel_Barrel_German";
+						};
+						class Item10
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={10300.99,42.394756,4750.311};
+								angles[]={0.0066682254,3.9550872,6.2798557};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=6742;
+							type="Land_SPE_Fuel_Barrel_German";
+						};
+						class Item11
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={10298.838,42.390133,4751.6416};
+								angles[]={-0,3.9551039,0};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=6743;
+							type="Land_SPE_Fuel_Barrel_German";
+						};
+						class Item12
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={10298.171,42.392937,4752.4204};
+								angles[]={6.276526,3.9552395,0};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=6744;
+							type="Land_SPE_Fuel_Barrel_German";
+						};
+						class Item13
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={10300.018,42.390335,4751.4604};
+								angles[]={0.0066682254,3.9551039,6.2798557};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=6745;
+							type="Land_SPE_Fuel_Barrel_German";
+						};
+						class Item14
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={10300.313,42.387627,4752.1875};
+								angles[]={6.2731905,3.9551039,6.2798557};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=6746;
+							type="Land_SPE_Fuel_Barrel_German";
+						};
+						class Item15
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={10299.195,42.396725,4752.7241};
+								angles[]={6.2731905,3.9551013,6.2798557};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=6747;
+							type="Land_SPE_Fuel_Barrel_German";
+						};
+						class Item16
+						{
+							dataType="Logic";
+							class PositionInfo
+							{
+								position[]={10301.973,41.941082,4752.2441};
+								angles[]={6.2798557,3.9551079,6.2731905};
+							};
+							areaSize[]={10.483,0,7.8643866};
+							areaIsRectangle=1;
+							flags=1;
+							id=6748;
+							type="ModuleHideTerrainObjects_F";
+							class CustomAttributes
+							{
+								class Attribute0
+								{
+									property="#filter";
+									expression="_this setVariable [""#filter"",_value]";
+									class Value
+									{
+										class data
+										{
+											singleType="SCALAR";
+											value=15;
+										};
+									};
+								};
+								class Attribute1
+								{
+									property="#hideLocally";
+									expression="_this setVariable [""#hideLocally"",_value]";
+									class Value
+									{
+										class data
+										{
+											singleType="BOOL";
+											value=0;
+										};
+									};
+								};
+								nAttributes=2;
+							};
+						};
+					};
+					id=6731;
+					atlOffset=0.00022506714;
+				};
+			};
+			id=6501;
+			atlOffset=0.63776016;
 		};
 	};
 	class Connections
