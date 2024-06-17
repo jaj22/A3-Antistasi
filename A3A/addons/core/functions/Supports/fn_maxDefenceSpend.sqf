@@ -33,7 +33,7 @@ if (gameMode == 1) then {
     _maxResources = _maxResources * (0.6 + _aggro/400);
 };
 Debug_2("Current resources %1, max resources %2", _curResources, _maxResources);
-if (_curResources < 0) exitWith { 0 };
+if (_curResources < 0.1) exitWith { 0 };
 
 
 // If target is air, use global anti-air and target threat specific spend limits
