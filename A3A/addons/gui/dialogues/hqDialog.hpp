@@ -702,7 +702,7 @@ class A3A_HqDialog : A3A_DefaultDialog
             x = CENTER_X(DIALOG_W) + 68 * GRID_W;
             y = CENTER_Y(DIALOG_H) + 8 * GRID_H;
             w = 84 * GRID_W;
-            h = 84 * GRID_H;
+            h = 76 * GRID_H;
 
             // Hide map markers
             showMarkers = false;
@@ -717,6 +717,51 @@ class A3A_HqDialog : A3A_DefaultDialog
             scaleDefault = 0.325; // 0.325 = Largest scale forests still are visible
             scaleMax = 1; // 2 = Max zoom level
         };
+
+        class GarrisonMap1 : GarrisonMap {
+            idc = 8400;
+            x = CENTER_X(DIALOG_W) + 68 * GRID_W;
+            y = CENTER_Y(DIALOG_H) + 84 * GRID_H;
+            w = 8 * GRID_W;
+            h = 8 * GRID_H;
+        };
+        class GarrisonMap2 : GarrisonMap1 {
+            idc = 8401;
+            x = CENTER_X(DIALOG_W) + 76 * GRID_W;
+        };
+        class GarrisonMap3 : GarrisonMap1 {
+            idc = 8402;
+            x = CENTER_X(DIALOG_W) + 84 * GRID_W;
+        };
+        class GarrisonMap4 : GarrisonMap1 {
+            idc = 8403;
+            x = CENTER_X(DIALOG_W) + 92 * GRID_W;
+        };
+        class GarrisonMap5 : GarrisonMap1 {
+            idc = 8404;
+            x = CENTER_X(DIALOG_W) + 100 * GRID_W;
+        };
+        class GarrisonMap6 : GarrisonMap1 {
+            idc = 8405;
+            x = CENTER_X(DIALOG_W) + 108 * GRID_W;
+        };
+        class GarrisonMap7 : GarrisonMap1 {
+            idc = 8406;
+            x = CENTER_X(DIALOG_W) + 116 * GRID_W;
+        };
+        class GarrisonMap8 : GarrisonMap1 {
+            idc = 8407;
+            x = CENTER_X(DIALOG_W) + 124 * GRID_W;
+        };
+        class GarrisonMap9 : GarrisonMap1 {
+            idc = 8408;
+            x = CENTER_X(DIALOG_W) + 132 * GRID_W;
+        };
+        class GarrisonMap10 : GarrisonMap1 {
+            idc = 8409;
+            x = CENTER_X(DIALOG_W) + 140 * GRID_W;
+        };
+
 
         class GarrisonTab : A3A_DefaultControlsGroup
         {

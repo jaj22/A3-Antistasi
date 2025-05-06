@@ -86,6 +86,19 @@ switch (_mode) do
         // Outposts
         _garrisonMap ctrlAddEventHandler ["Draw","_this call A3A_GUI_fnc_mapDrawOutpostsEH"];
 
+        for "_i" from 8400 to 8409 do {
+            private _mapCtrl = _display displayCtrl _i;
+            _mapCtrl ctrlAddEventHandler ["Draw","_this call A3A_GUI_fnc_mapDrawOutpostsEH"];
+            _mapCtrl spawn {
+                private _state = true;
+                while {!isNull _this} do {
+                    sleep random 10;
+                    _state = !_state;
+                    _this ctrlShow _state;
+                };
+            };
+        };
+
         Debug("HqDialog onLoad complete.");
     };
 
