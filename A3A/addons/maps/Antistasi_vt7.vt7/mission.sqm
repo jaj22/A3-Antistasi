@@ -23275,7 +23275,7 @@ class Mission
 						{
 							dataType="Marker";
 							position[]={1888.875,3.711,6217.75};
-							name="Outpost_1";
+							name="outpost_1";
 							markerType="RECTANGLE";
 							type="rectangle";
 							colorName="ColorGreen";
@@ -24497,7 +24497,7 @@ class Mission
 						{
 							dataType="Marker";
 							position[]={3661.959,12.142895,7410.6631};
-							name="Outpost";
+							name="outpost";
 							markerType="RECTANGLE";
 							type="rectangle";
 							colorName="ColorGreen";
@@ -25639,7 +25639,7 @@ class Mission
 						{
 							dataType="Marker";
 							position[]={486.32462,4.3809814,5434.2607};
-							name="Outpost_2";
+							name="outpost_2";
 							markerType="ELLIPSE";
 							type="rectangle";
 							colorName="ColorGreen";
@@ -28835,7 +28835,7 @@ class Mission
 						{
 							dataType="Marker";
 							position[]={16022.375,8.125,15763};
-							name="Outpost_3";
+							name="outpost_3";
 							markerType="ELLIPSE";
 							type="rectangle";
 							colorName="ColorGreen";
@@ -28968,7 +28968,7 @@ class Mission
 						{
 							dataType="Marker";
 							position[]={1931.7178,11.754879,8304.6963};
-							name="Outpost_4";
+							name="outpost_4";
 							markerType="RECTANGLE";
 							type="rectangle";
 							colorName="ColorGreen";
@@ -29376,7 +29376,7 @@ class Mission
 						{
 							dataType="Marker";
 							position[]={5247.2715,25.5,10000.105};
-							name="Outpost_5";
+							name="outpost_5";
 							markerType="RECTANGLE";
 							type="rectangle";
 							colorName="ColorGreen";
@@ -35233,7 +35233,7 @@ class Mission
 						{
 							dataType="Marker";
 							position[]={6608.9351,2.3055582,7277.5376};
-							name="Outpost_6";
+							name="outpost_6";
 							markerType="RECTANGLE";
 							type="rectangle";
 							colorName="ColorGreen";
@@ -37451,7 +37451,7 @@ class Mission
 						{
 							dataType="Marker";
 							position[]={1733.125,23.875,12730.875};
-							name="Outpost_7";
+							name="outpost_7";
 							markerType="RECTANGLE";
 							type="rectangle";
 							colorName="ColorGreen";
@@ -39243,7 +39243,7 @@ class Mission
 						{
 							dataType="Marker";
 							position[]={1758.375,21.228428,15544.875};
-							name="Outpost_9";
+							name="outpost_9";
 							markerType="RECTANGLE";
 							type="rectangle";
 							colorName="ColorGreen";
@@ -39689,7 +39689,7 @@ class Mission
 						{
 							dataType="Marker";
 							position[]={8711.7578,14.5,10312.093};
-							name="Outpost_8";
+							name="outpost_8";
 							markerType="ELLIPSE";
 							type="rectangle";
 							colorName="ColorGreen";
@@ -42132,7 +42132,7 @@ class Mission
 						{
 							dataType="Marker";
 							position[]={9261.8477,11.262207,9019.8281};
-							name="Outpost_10";
+							name="outpost_10";
 							markerType="ELLIPSE";
 							type="rectangle";
 							colorName="ColorGreen";
@@ -43916,7 +43916,7 @@ class Mission
 						{
 							dataType="Marker";
 							position[]={10761.921,53.932365,11018.309};
-							name="Outpost_11";
+							name="outpost_11";
 							markerType="RECTANGLE";
 							type="rectangle";
 							colorName="ColorGreen";
@@ -44518,7 +44518,7 @@ class Mission
 						{
 							dataType="Marker";
 							position[]={13067.311,10.384,6501.0444};
-							name="Outpost_12";
+							name="outpost_12";
 							markerType="ELLIPSE";
 							type="rectangle";
 							colorName="ColorGreen";
@@ -47356,7 +47356,7 @@ class Mission
 						{
 							dataType="Marker";
 							position[]={6301.3838,14.521,13005.734};
-							name="Outpost_13";
+							name="outpost_13";
 							markerType="ELLIPSE";
 							type="rectangle";
 							colorName="ColorGreen";
@@ -49901,7 +49901,7 @@ class Mission
 						{
 							dataType="Marker";
 							position[]={9048.5615,27.75,16331.157};
-							name="Outpost_14";
+							name="outpost_14";
 							markerType="RECTANGLE";
 							type="rectangle";
 							colorName="ColorGreen";
@@ -50467,7 +50467,7 @@ class Mission
 						{
 							dataType="Marker";
 							position[]={11807.955,21.183744,16255.702};
-							name="Outpost_15";
+							name="outpost_15";
 							markerType="RECTANGLE";
 							type="rectangle";
 							colorName="ColorGreen";
@@ -51232,7 +51232,7 @@ class Mission
 						{
 							dataType="Marker";
 							position[]={15196.875,3,14140.875};
-							name="Outpost_16";
+							name="outpost_16";
 							markerType="RECTANGLE";
 							type="rectangle";
 							colorName="ColorGreen";
@@ -51711,7 +51711,7 @@ class Mission
 						{
 							dataType="Marker";
 							position[]={10360.625,3.0420525,4386.125};
-							name="Outpost_18";
+							name="outpost_18";
 							markerType="ELLIPSE";
 							type="rectangle";
 							colorName="ColorGreen";
@@ -52361,7 +52361,7 @@ class Mission
 						{
 							dataType="Marker";
 							position[]={12502.5,15.375,9223.875};
-							name="Outpost_17";
+							name="outpost_17";
 							markerType="ELLIPSE";
 							type="rectangle";
 							colorName="ColorGreen";
@@ -53132,7 +53132,7 @@ class Mission
 						{
 							dataType="Marker";
 							position[]={4512.75,18.125,14210.875};
-							name="Outpost_19";
+							name="outpost_19";
 							markerType="RECTANGLE";
 							type="rectangle";
 							colorName="ColorGreen";
@@ -53589,7 +53589,7 @@ class Mission
 						{
 							dataType="Marker";
 							position[]={8870.1475,6.5509658,5760.647};
-							name="Outpost_20";
+							name="outpost_20";
 							markerType="ELLIPSE";
 							type="rectangle";
 							colorName="ColorGreen";
@@ -55229,7 +55229,7 @@ class Mission
 						{
 							dataType="Marker";
 							position[]={6095.6992,28.013,5321.2959};
-							name="Outpost_21";
+							name="outpost_21";
 							markerType="ELLIPSE";
 							type="rectangle";
 							colorName="ColorGreen";
@@ -59428,7 +59428,7 @@ class Mission
 						{
 							dataType="Marker";
 							position[]={1254.0571,6.75,4647.4536};
-							name="Seaport";
+							name="seaport";
 							markerType="RECTANGLE";
 							type="mil_objective";
 							colorName="ColorBlue";
@@ -59879,7 +59879,7 @@ class Mission
 						{
 							dataType="Marker";
 							position[]={9841.25,6.75,2396.375};
-							name="Seaport_3";
+							name="seaport_3";
 							markerType="RECTANGLE";
 							type="mil_objective";
 							colorName="ColorBlue";
@@ -60572,7 +60572,7 @@ class Mission
 						{
 							dataType="Marker";
 							position[]={17199.25,7.25,14252.125};
-							name="Seaport_1";
+							name="seaport_1";
 							markerType="ELLIPSE";
 							type="mil_objective";
 							colorName="ColorBlue";
@@ -61074,7 +61074,7 @@ class Mission
 						{
 							dataType="Marker";
 							position[]={16600.5,6.75,4248.5};
-							name="Seaport_2";
+							name="seaport_2";
 							markerType="RECTANGLE";
 							type="mil_objective";
 							colorName="ColorBlue";
